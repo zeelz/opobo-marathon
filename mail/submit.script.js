@@ -62,7 +62,7 @@ document.querySelector('#runnersRegForm').addEventListener('submit', function(e)
             messageContainer.classList.add('text-white')
             messageContainer.classList.remove('d-none')
             messageContainer.scrollIntoView()
-            messageContainer.innerHTML = 'Form submitted'  
+            messageContainer.innerHTML = 'Thank you for registering for Opobo marathon 2023'
             setTimeout(() => {              
                 messageContainer.classList.remove('bg-success')
                 messageContainer.classList.remove('text-white')
