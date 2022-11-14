@@ -127,7 +127,8 @@
 button.bg-secondary:focus,
 #donateForm button.active,
 #donateForm button:hover:not(button[type='submit']) {
-  background-color: var(--primary)!important
+  background-color: var(--primary)!important;
+  color: #FFF;
 }
 
 .modal-head-bg {

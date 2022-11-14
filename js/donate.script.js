@@ -39,11 +39,14 @@ document.querySelector('#donateForm').addEventListener('submit', function(e){
     const googleScriptURL = 'https://script.google.com/macros/s/AKfycbwkZtOkGYmO0P_JPPSPkg_cUxT_oeCEfDS852pPgYLNnjVT3xZHPo3080G7YS-6uHLuWw/exec';
     e.preventDefault()
 
-    const email = e.target.email.value
-    let amount = e.target.setAmount.value
-    amount = !amount? donateAmount.split(',').join('') : amount
-    payWithPaystack(email, amount)
-    
+    if (e.target.email.value) {
+        const email = e.target.email.value
+        let amount = e.target.setAmount.value
+        amount = !amount? donateAmount.split(',').join('') : amount
+        payWithPaystack(email, amount)
+    } {
+        console.log('do the proper thing');
+    }
 
 })
 
