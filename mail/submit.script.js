@@ -1,23 +1,11 @@
-function payWithPaystack(email, amount) {
-    let handler = PaystackPop.setup({
-        key: 'pk_test_0337426f78356df028480c35319a44428f71883d', // Replace with your public key
-        email,
-        amount: amount * 100,
-        ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
-        // label: "Optional string that replaces customer email"
+// Populate countries select
+const countriesSelect = document.querySelector('#country')
+countries.forEach((country) => {
+    const option = document.createElement('option')
+    option.innerHTML = country
+    countriesSelect.appendChild(option)
+})
 
-        onClose: function(){
-            alert('Window closed.');
-        },
-
-        callback: function(response){
-            let message = 'Payment complete! Reference: ' + response.reference;
-            alert(message);
-        }
-    });
-
-    handler.openIframe();
-}
 
 document.querySelector('#runnersRegForm').addEventListener('submit', function(e){
 
@@ -42,7 +30,7 @@ document.querySelector('#runnersRegForm').addEventListener('submit', function(e)
         visitedOpobo: e.target.visitedOpobo.value
     }
 
-    if (Object.values(data).every(s => s !== "")) {
+    if (e.target.acceptTerms.checked && Object.values(data).every(s => s !== "")) {
         try {
 
             fetch(googleScriptURL, {
@@ -62,7 +50,6 @@ document.querySelector('#runnersRegForm').addEventListener('submit', function(e)
                     // mailSender.email.value = email
                     // mailSender.submit()
                 // }
-                payWithPaystack(data.email, amount)
 
             })
             .catch(err => console.log(err))
@@ -96,3 +83,5 @@ document.querySelector('#runnersRegForm').addEventListener('submit', function(e)
         
     }
 })
+
+

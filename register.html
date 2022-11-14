@@ -135,23 +135,23 @@
                                 <form name="sentMessage" id="runnersRegForm" novalidate="novalidate">
                                     <div class="form-row">
                                         <div class="col-sm-6 control-group mt-3">
-                                            <input type="text" class="form-control p-4" id="firstName" placeholder="First Name" autofocus required="required" data-validation-required-message="Please enter your first name" />
+                                            <input type="text" class="form-control p-4" id="firstName" placeholder="First Name" autofocus required data-validation-required-message="Please enter your first name" />
                                             <small class="help-block text-danger"></small>
                                         </div>
                                         <div class="col-sm-6 control-group mt-3 mb-2">
-                                            <input type="text" class="form-control p-4" id="lastName" placeholder="Last Name" required="required" data-validation-required-message="Please enter your last name" />
+                                            <input type="text" class="form-control p-4" id="lastName" placeholder="Last Name" required data-validation-required-message="Please enter your last name" />
                                             <small class="help-block text-danger"></small>
                                         </div>
                                         
                                         <div class="col-sm-6 control-group mt-0">
                                             <label for="date" class="m-0"><small>Date of Birth</small></label>
-                                            <input type="date" class="form-control p-4" id="date" required="required" data-validation-required-message="Please select your Date of Birth" />                                            
+                                            <input type="date" class="form-control p-4" id="date" required data-validation-required-message="Please select your Date of Birth" />                                            
                                             <small class="help-block text-danger"></small>
                                         </div>
 
                                         <div class="col-sm-6 control-group mt-4">
                                             <div class="form-control" style="height: 3rem;">
-                                                <select class="w-100 border-0 p-1 rounded-pill" id="sex" required="required">
+                                                <select class="w-100 border-0 p-1 rounded-pill" id="sex" required>
                                                     <option>Sex</option>
                                                     <option>Male</option>
                                                     <option>Female</option>
@@ -164,29 +164,26 @@
                                         <div class="col-sm-6 control-group mt-3">
                                             <div class="form-control" style="height: 3rem;">
                                                 <select class="w-100 border-0 p-1 rounded-pill" id="country">
-                                                    <option>Country</option>
-                                                    <option>Nigeria</option>
-                                                    <option>Kenya</option>
                                                 </select>
                                             </div>
                                             <small class="help-block text-danger"></small>
                                         </div>
 
                                         <div class="col-sm-6 control-group mt-3">
-                                            <input type="text" class="form-control p-4" id="state" placeholder="State or Region" required="required" data-validation-required-message="Please enter your state or region" />
+                                            <input type="text" class="form-control p-4" id="state" placeholder="State or Region" required data-validation-required-message="Please enter your state or region" />
                                             <small class="help-block text-danger"></small>
                                         </div>
                                         <div class="col-sm-12 control-group mt-3">
-                                            <textarea class="form-control p-4" rows="6" id="address" placeholder="Address" required="required" data-validation-required-message="Please enter your address"></textarea>
+                                            <textarea class="form-control p-4" rows="6" id="address" placeholder="Address" required data-validation-required-message="Please enter your address"></textarea>
                                             <small class="help-block text-danger"></small>
                                         </div>
                                         <div class="col-sm-6 control-group mt-3">
-                                            <input type="text" class="form-control p-4" id="phone" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your Phone Number" />
+                                            <input type="text" class="form-control p-4" id="phone" placeholder="Phone Number" required data-validation-required-message="Please enter your Phone Number" />
                                             <small class="help-block text-danger"></small>
                                         </div>
                                         
                                         <div class="col-sm-6 control-group mt-3">
-                                            <input type="email" class="form-control p-4" id="email" placeholder="Email" required="required" data-validation-required-message="Please enter your email" />
+                                            <input type="email" class="form-control p-4" id="email" placeholder="Email" required data-validation-required-message="Please enter your email" />
                                             <small class="help-block text-danger"></small>
                                         </div>
                                         
@@ -212,13 +209,18 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-6 control-group mt-3">
-                                            <input type="text" class="form-control p-4" id="contactPhone" placeholder="Contact Person's Phone" required="required" data-validation-required-message="Please enter contact person's phone" />
+                                            <input type="text" class="form-control p-4" id="contactPhone" placeholder="Contact Person's Phone" required data-validation-required-message="Please enter contact person's phone" />
                                             <small class="help-block text-danger"></small>
                                             <small class="text-dark">For case of emergency situation?</small>
                                         </div>
                                         <div class="mt-2">
                                             <h6 class="text-secondary">Disclaimer</h6>
-                                            <small class="text-muted">By submitting this form, I hereby attest that I am medically and physically fit for this Marathon. Thus, I hereby indemnify the organisers, sponsors or its associates from any form of liability arising from my participation in the Opobo Marthon 2023. For Terms and Conditions read more</small>
+                                            <small class="text-muted">By submitting this form, I hereby attest that I am medically and physically fit for this Marathon. Thus, I hereby indemnify the organisers, sponsors or its associates from any form of liability arising from my participation in the Opobo Marthon 2023.</small>
+                                            <div class="mt-2">
+                                                <input type="checkbox" id="acceptTerms" value="accepted">
+                                                <label for="">I have read and accept the <a href="terms.html">Waiver and Release of Liability</a> terms
+                                                </label>
+                                            </div>
                                         </div>
 
                                         <div class="mt-3">
@@ -311,7 +313,9 @@
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <!-- <script src="mail/contact.js"></script> -->
 
-    <script src="mail/submit.script.js"></script>
+    <script src="js/countries.js"></script>
+
+    <script src="mail/submit.script.js" type="module"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
