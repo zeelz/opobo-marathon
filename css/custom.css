@@ -129,3 +129,10 @@ button.bg-secondary:focus,
 #donateForm button:hover:not(button[type='submit']) {
   background-color: var(--primary)!important
 }
+
+.modal-head-bg {
+  height: 200px;
+  background-image: url(../img/runners.jpg);
+  background-size: cover;
+  background-position: center;
+}

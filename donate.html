@@ -146,7 +146,7 @@
                                             <button class="rounded-pill bg-secondary border px-3 py-2 m-1">50,000</button>
                                             <button class="rounded-pill bg-secondary border px-3 py-2 m-1">100,000</button>
 
-                                            <input class="rounded-pill px-3 py-2 border-warning" id="contactPhone" placeholder="Enter own amount"  />
+                                            <input type="number" class="rounded-pill px-3 py-2 border-warning" id="setAmount" placeholder="Enter own amount"  />
                                             
                                             <input type="email" required class="form-control p-4 my-2" id="email" placeholder="Email address"  />
 
@@ -222,6 +222,27 @@
         </div>
     </div>
     <!-- Footer End -->
+    
+    <!-- Thank you Modal Start -->
+    <div class="modal fade" id="thankyouModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    
+                    <div class="">
+                        <div class="modal-head-bg"></div>
+                        <div class="p-4">
+                            <h4 class="text-primary">Donation Sent</h4>
+                            <p>Thank you for supporting Opobo Marathon.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Back to Top -->
@@ -242,12 +263,13 @@
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <!-- <script src="mail/contact.js"></script> -->
 
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
     <!-- Paystack Inline -->
     <script src="https://js.paystack.co/v1/inline.js"></script>
     <script src="js/donate.script.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
 
 </body>
 
