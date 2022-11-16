@@ -1,43 +1,27 @@
 $(function () {
 
-    $("#runnersRegForm input__, #runnersRegForm textarea__").jqBootstrapValidation({
+    $("#contactForm input, #contactForm textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function ($form, event, errors) {
         },
         submitSuccess: function ($form, event) {
             event.preventDefault();
-            let firstName = $("input#firstName").val();
-            let lastName = $("input#lastName").val();
-            let email = $("input#email").val();
-            let dateInput = $("input#date").val();
-            let state = $("input#state").val();
-            let phone = $("input#phone").val();
-            let contactPhone = $("input#contactPhone").val();
-            let address = $("textarea#address").val();
-            let sex = $("select#sex").val();
-            let country = $("select#country").val();
-            let visitedOpobo = $("select#visitedOpobo").val();
-            let raceChoice = $("select#raceChoice").val();
+            var name = $("input#name").val();
+            var email = $("input#email").val();
+            var subject = $("input#subject").val();
+            var message = $("textarea#message").val();
 
-            $this = $("#registerButton");
+            $this = $("#sendMessageButton");
             $this.prop("disabled", true);
 
             $.ajax({
-                url: '',
+                url: "contact.php",
                 type: "POST",
                 data: {
-                    firstName,
-                    lastName,
-                    email,
-                    dateInput,
-                    state,
-                    phone,
-                    contactPhone,
-                    address,
-                    sex,
-                    country,
-                    visitedOpobo,
-                    raceChoice,
+                    name: name,
+                    email: email,
+                    subject: subject,
+                    message: message
                 },
                 cache: false,
                 success: function () {
@@ -74,11 +58,8 @@ $(function () {
         e.preventDefault();
         $(this).tab("show");
     });
-
 });
 
-
-$('#firstName').focus(function () {
-    // console.log($('#firstName').val('world'))
-    $('#success').html('hello');
+$('#name').focus(function () {
+    $('#success').html('');
 });

@@ -263,10 +263,32 @@
 
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+    <!-- <script src="mail/contact.js"></script> -->
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        const data = JSON.stringify({body: 'This is the boby of the mail'})
+
+        fetch('mail/mail.php', {
+                method: 'POST',
+                mode: "no-cors",
+                cache: "no-cache",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                redirect: "follow",
+                body: data
+            })
+            .then(res => {
+                if (res.status === 200) {
+
+                    console.log(res);
+                }
+            })
+            .catch(err => console.log(err))
+
+    </script>
 </body>
 
 </html>
