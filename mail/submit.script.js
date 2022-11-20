@@ -6,31 +6,8 @@ countries.forEach((country) => {
     countriesSelect.appendChild(option)
 })
 
-
-document.querySelector('#runnersRegForm').addEventListener('submit', function(e){
-
-    const googleScriptURL = 'https://script.google.com/macros/s/AKfycbwkZtOkGYmO0P_JPPSPkg_cUxT_oeCEfDS852pPgYLNnjVT3xZHPo3080G7YS-6uHLuWw/exec';
-    const messageContainer = document.querySelector('#messageContainer')
-    const amount = 2500
-
-    e.preventDefault()
-
-    const data = {
-        firstName: e.target.firstName.value,
-        lastName: e.target.lastName.value,
-        email: e.target.email.value,
-        dateInput: e.target.date.value,
-        sex: e.target.sex.value,
-        state: e.target.state.value,
-        phone: e.target.phone.value,
-        contactPhone: e.target.contactPhone.value,
-        address: e.target.address.value,
-        country: e.target.country.value,
-        raceChoice: e.target.raceChoice.value,
-        visitedOpobo: e.target.visitedOpobo.value
-    }
-
-    if (e.target.acceptTerms.checked && Object.values(data).every(s => s !== "")) {
+function sendToGScript(data, messageContainer, accepted = true){
+    if (accepted && Object.values(data).every(s => s !== "")) {
         try {
 
             fetch(googleScriptURL, {
@@ -62,7 +39,7 @@ document.querySelector('#runnersRegForm').addEventListener('submit', function(e)
             messageContainer.classList.add('text-white')
             messageContainer.classList.remove('d-none')
             messageContainer.scrollIntoView()
-            messageContainer.innerHTML = 'Thank you for registering for Opobo marathon 2023'
+            messageContainer.innerHTML = `Thank you for registering to ${data.formType === 'runner'? 'run' : 'volunteer'} at Opobo marathon 2023`
             setTimeout(() => {              
                 messageContainer.classList.remove('bg-success')
                 messageContainer.classList.remove('text-white')
@@ -82,6 +59,50 @@ document.querySelector('#runnersRegForm').addEventListener('submit', function(e)
         }, 5000);
         
     }
+}
+
+const googleScriptURL = 'https://script.google.com/macros/s/AKfycbwkZtOkGYmO0P_JPPSPkg_cUxT_oeCEfDS852pPgYLNnjVT3xZHPo3080G7YS-6uHLuWw/exec';
+
+
+document.querySelectorAll('.runnersRegForm').forEach( (element) => {
+    
+
+    element.addEventListener('submit', function(e){
+        e.preventDefault()
+            
+        const messageContainer = e.target.querySelector('.messageContainer')
+
+        const data = {
+            firstName: e.target.firstName.value,
+            lastName: e.target.lastName.value,
+            email: e.target.email.value,
+            address: e.target.address.value,
+            phone:  e.target.phone.value
+        }
+
+        if (element.dataset.form === 'runner') {
+            data.dateInput = e.target.date.value
+            data.sex = e.target.sex.value
+            data.state = e.target.state.value
+            data.contactPhone = e.target.contactPhone.value
+            data.country = e.target.country.value
+            data.raceChoice = e.target.raceChoice.value
+            data.visitedOpobo =  e.target.visitedOpobo.value
+            data.formType = 'runner'
+        
+            sendToGScript(data, messageContainer, e.target.acceptTerms.checked)
+
+        } else if(element.dataset.form === 'volunteer') {
+            data.ageRange = e.target.ageRange.value
+            data.department = e.target.department.value
+            data.formType = 'volunteer'
+
+            sendToGScript(data, messageContainer)
+        } else {
+
+        }
+        
+        // console.log(data)
+    })
+
 })
-
-

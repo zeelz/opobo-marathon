@@ -6,7 +6,8 @@
 .navbar-light .navbar-nav .nav-link.active {
   color: var(--secondary);
 }
-.navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:focus {
   color: var(--primary);
 }
 
@@ -36,6 +37,11 @@
   color: #fff;
   background-color: var(--secondary);
   border-color: unset;
+  text-decoration: underline;
+}
+
+a.text-secondary:hover, a.text-secondary:focus {
+  color: var(--secondary) !important;
   text-decoration: underline;
 }
 
@@ -121,7 +127,15 @@
 }
 
 .bg-service {
-  background-position: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/carousel-1.jpg), no-repeat center center;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.bg-opobo-cta {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/canoe-regatta.jpg), no-repeat center center;
+  background-size: cover;
+  background-position-y: bottom;
 }
 
 button.bg-secondary:focus,
@@ -138,18 +152,53 @@ button.bg-secondary:focus,
   background-position: center;
 }
 
-
-
 #countdown li {
   display: inline-block;
-  /* font-size: 1.5em; */
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+@media(max-width: 576px) {
+  #countdown li {
+    padding: 1em 0.75em;
+  }
 }
 
 #countdown li span {
   /* display: block; */
-  /* font-size: 4.5rem; */
+  font-size: 1rem;
   padding-right: 5px;
+  border-radius: 4px;
+  margin-right: 0.25rem;
+  padding: 0 0.25rem;
+  color: var(--dark);
+  background-color: var(--secondary);
+}
+
+.gallery-icon {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: rgba(0, 136, 204, 0.6);
+  height: 100%;
+  width: 100%;
+}
+
+.gallery:hover .gallery-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-icon i {
+  color: #FFF;
+  font-size: 2rem;
+}
+
+.footer {
+  font-size: smaller;
 }

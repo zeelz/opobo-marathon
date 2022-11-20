@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Opobo Marathon - Run for Peace</title>
+    <title>Home - Opobo Marathon 2023</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Opobo Marathon Rivers State Peace-Run" name="keywords">
     <meta content="Opobo Marathon - Run for Peace" name="description">
@@ -47,7 +47,7 @@
 
                     <div class="col-lg-6 text-center text-lg-right text-secondary">
                         <div id="countdown">
-                            <ul class="m-0">
+                            <ul class="m-0 p-0">
                                 <li><span id="days"></span>days</li>
                                 <li><span id="hours"></span>Hr</li>
                                 <li><span id="minutes"></span>Min</li>
@@ -91,11 +91,11 @@
                         </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                             <div class="navbar-nav py-0">
-                                <a href="index.html" class="nav-item nav-link active">Home</a>
+                                <a href="#" class="nav-item nav-link active">Home</a>
                                 <a href="register.html" class="nav-item nav-link">Registrations</a>
-                                <a href="#" class="nav-item nav-link">About</a>
-                                <a href="#" class="nav-item nav-link">Gallery</a>                                
-                                <a href="#" class="nav-item nav-link">Contact</a>
+                                <a href="about.html" class="nav-item nav-link">About</a>
+                                <a href="gallery.html" class="nav-item nav-link">Gallery</a>                                
+                                <a href="contact.html" class="nav-item nav-link">Contact</a>
                             </div>
                                 
                             <div class="text-center text-lg-right pb-2 d-lg-none">
@@ -181,7 +181,7 @@
                     <i class="fas fa-2x fa-hands-helping text-dark mr-2"></i>
                     <div class="">
                         <h5 class="mb-2 text-uppercase">
-                            <a href="#" class="text-dark">Volunteer with Us</a>
+                            <a href="register.html?type=volunteer" class="text-dark">Volunteer with Us</a>
                         </h5>
                     </div>
                 </div>
@@ -204,17 +204,17 @@
 
 
     <!-- About Start -->
-    <div class="container-fluid py-lg-5 mb-5">
+    <div class="container-fluid py-3 py-lg-5 mb-lg-2">
         <div class="container">
             <div class="row">
-                <div class="col-lg pt-5 pb-lg-5">
+                <div class="col-lg pb-lg-5">
                     <!-- <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">About Opobo Marathon</h6> -->
                     <h1 class="mb-4 section-title">Opobo Marathon</h1>
                     <h5 class="text-muted font-weight-normal mb-3">The Opobo Marathon is an annual marathon race started in 2019. The Marathon is held every first week of January in Opobo Kingdom, Opobo/Nkoro Local Government Area of Rivers State Nigeria. </h5>
                    
                     <!-- <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p> -->
                     <div class="d-flex align-items-center pt-4">
-                        <a href="" class="btn btn-primary text-white mr-5 btn-pulse"><span>See More</span></a>
+                        <a href="about.html" class="btn btn-primary text-white mr-5 btn-pulse"><span>See More</span></a>
                         
                         <!-- <button type="button" class="btn-play" data-toggle="modal"
                             data-src="https://www.youtube.com/watch?v=VJ3u9Hv97YE" data-target="#videoModal">
@@ -461,7 +461,11 @@
         
         <h1 class="mb-0 text-secondary text-center">Our Awesome Sponsors</h1>
 
+
+
+
         <div class="col-lg-10 d-flex flex-wrap justify-content-center offset-lg-1 py-5"  style="gap: 10px">
+
             <div class="sponsor-logo">
                 <img class="img-fluid" src="img/sponsors/heritage-bank.png" />
             </div>
@@ -496,81 +500,47 @@
     </div>
 
     <!-- Blog Start -->
-    <!-- <div class="container-fluid pt-5">
+    <div class="container-fluid py-5" style="background-color: rgba(0, 136 ,205, 0.2);">
         <div class="container pt-5">
             <div class="row align-items-end mb-4">
-                <div class="col-lg-6">
+                <div class="col-12">
                     <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Latest Blog</h6>
                     <h1 class="section-title mb-3">Latest Articles From Our Blog Post</h1>
                 </div>
-                <div class="col-lg-6">
-                    <h4 class="font-weight-normal text-muted mb-3">Eirmod kasd duo eos et magna, diam dolore stet sea clita sit ea erat lorem. Ipsum eos ipsum magna lorem stet</h4>
-                </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-5">
+            <div class="row" id="postsContainer">
+
+                <!-- <div class="col-lg-4 col-md-6 mb-5">
                     <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-1.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="img/2runners.jpg" alt="">
                         <div class="blog-date">
                             <h4 class="font-weight-bold mb-n1">01</h4>
                             <small class="text-white text-uppercase">Jan</small>
                         </div>
                     </div>
                     <div class="d-flex mb-2">
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a>
+                        <a class="text-uppercase" href="">Admin</a>
                         <span class="text-primary px-2">|</span>
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Cleaning</a>
+                        <a class="text-uppercase" href="">Cleaning</a>
                     </div>
-                    <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
+                    <h5 class="mb-2">Rebum lorem eos ipsum diam</h5>
                     <p class="mb-4">Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna dolor amet</p>
                     <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-2.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">01</h4>
-                            <small class="text-white text-uppercase">Jan</small>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-2">
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a>
-                        <span class="text-primary px-2">|</span>
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Cleaning</a>
-                    </div>
-                    <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
-                    <p class="mb-4">Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna dolor amet</p>
-                    <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">01</h4>
-                            <small class="text-white text-uppercase">Jan</small>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-2">
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a>
-                        <span class="text-primary px-2">|</span>
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Cleaning</a>
-                    </div>
-                    <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
-                    <p class="mb-4">Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna dolor amet</p>
-                    <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
-                </div>
+                </div> -->
+
+                
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- Blog End -->
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+    <div class="container-fluid footer bg-dark text-white py-5 px-sm-3 px-md-5">
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="font-weight-normal mb-4 text-white mb-4">Get In Touch</h4>
-                <p><i class="fa fa-phone-alt text-primary mr-2"></i>+234 706 289 1017</p>
+                <h4 class="font-weight-light mb-4 text-white mb-4">Get In Touch</h4>
+                <p><i class="fa fa-phone-alt text-primary mr-2"></i>+234 816 677 1851</p>
                 <p><i class="fa fa-envelope text-primary mr-2"></i>info@opobomarathon.com</p>
                 <div class="d-flex justify-content-start mt-4">
                     <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -580,17 +550,17 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="font-weight-normal mb-4 text-white mb-4">Quick Links</h4>
+                <h4 class="font-weight-light mb-4 text-white mb-4">Quick Links</h4>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Registrations</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Gallery</a>
-                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                    <a class="text-white mb-2" href="/"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="register.html"><i class="fa fa-angle-right mr-2"></i>Registrations</a>
+                    <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                    <a class="text-white mb-2" href="gallery.html"><i class="fa fa-angle-right mr-2"></i>Gallery</a>
+                    <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="font-weight-normal mb-4 text-white mb-4">Newsletter</h4>
+                <h4 class="font-weight-light mb-4 text-white mb-4">Newsletter</h4>
                 <p>Subscribe and follow our updates<p>
                 <div class="w-100">
                     <div class="input-group">
@@ -637,6 +607,395 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script>
+
+const posts = [
+    {
+        "id": 12722,
+        "date": "2021-03-28T23:50:19",
+        "date_gmt": "2021-03-28T22:50:19",
+        "guid": {
+            "rendered": "https://lagoscitymarathon.com/?p=12722"
+        },
+        "modified": "2021-03-28T23:50:19",
+        "modified_gmt": "2021-03-28T22:50:19",
+        "slug": "kenya-airways-joins-lagos-city-marathon-as-partner",
+        "status": "publish",
+        "type": "post",
+        "link": "https://lagoscitymarathon.com/kenya-airways-joins-lagos-city-marathon-as-partner/",
+        "title": {
+            "rendered": "Kenya Airways Joins Lagos City Marathon as Partner"
+        },
+        "content": {
+            "rendered": "<p>The number of global brands entering into partnerships with Access Bank Lagos City Marathon increased on Wednesday as award-winning airline, Kenya Airways joined the rich list of partners.</p>\n<p>With Access Bank as Headline Sponsor, the rich list of partners include 7UP Bottling Company, Eko Atlantic City, Eko Hotels, Revolution Plus Property, Bet9ja, and Skechers, the Centre of Excellence Lagos is the host city.</p>\n<p>The deal to bring Kenya Airways onboard the award-winning Access Bank Lagos City Marathon was brokered by the Project Consultant and Managing Director Nilayo Sports Management Limited, Bukola Olopade.</p>\n<div class=\"td-g-rec td-g-rec-id-content_inlineleft td_uid_2_606107d19289f_rand td_block_template_1 \"></div>\n<p>In a statement signed by Olukayode Thomas, Head of Communication and Media Access Bank Lagos City Marathon, Olopade said, “We are happy to have Kenya Airways as the official airline partner of the Access Bank Lagos City Marathon, an event that has redefined the trajectory of races in Africa and across the rest of the world.</p>\n<p>“This is a partnership that is coming at the right time because the Access Bank Lagos City Marathon has positioned Lagos as a global marathon destination and that is fostered by organisations like Kenya Airways who value quality and top-notch delivery which is our signature across all our races.”</p>\n<p>Hafeez Balogun, Country Manager, Kenya Airways Nigeria added that “We are involved with the Access Bank Lagos City Marathon because the ideal behind the event tallies with our culture of promoting the African spirit. Africans are champions of marathons and Kenya Airways is the pride of Africa.</p>\n<p>“We are eagerly looking forward to another excellent show of African spirit of strong will power, determination, and perfect finishes at the 2021 Lagos City Marathon.”</p>\n<p>The sixth edition of the Access Bank Lagos City Marathon, a prestigious World Athletics Silver Label road race, is slated to hold 13th of February, 2021.</p>\n<p>The event which normally host over 100,000 runners from across the world each year including top elite runners, however due to Covid-19 will only accept 10,000 runners to participate in the next edition of the Access Bank Lagos City Marathon.</p>\n<p>Nilayo Sports Management Limited is the foremost sports management and marketing company in Nigeria.</p>\n<p>With over two decades of experience, NSML promotes sporting activities from grassroots level to international level in Africa.</p>\n<div class=\"sharedaddy sd-sharing-enabled\"></div>\n<div><strong>Source &#8211; </strong>https://www.thisdaylive.com/index.php/2020/12/17/kenya-airways-joins-lagos-city-marathon-as-partner/</div>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>The number of global brands entering into partnerships with Access Bank Lagos City Marathon increased [&hellip;]</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 12723,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            81
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/posts/12722"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/comments?post=12722"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/posts/12722/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 12724,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/posts/12722/revisions/12724"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/media/12723"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/media?parent=12722"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/categories?post=12722"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/tags?post=12722"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 12719,
+        "date": "2021-03-28T23:48:32",
+        "date_gmt": "2021-03-28T22:48:32",
+        "guid": {
+            "rendered": "https://lagoscitymarathon.com/?p=12719"
+        },
+        "modified": "2021-03-28T23:48:32",
+        "modified_gmt": "2021-03-28T22:48:32",
+        "slug": "access-bank-lagos-city-marathon-moved-to-april-10",
+        "status": "publish",
+        "type": "post",
+        "link": "https://lagoscitymarathon.com/access-bank-lagos-city-marathon-moved-to-april-10/",
+        "title": {
+            "rendered": "Access Bank Lagos City Marathon moved to April 10"
+        },
+        "content": {
+            "rendered": "<p>This year’s edition of the Access Bank Lagos City Marathon earlier slated for February 13, has now been shifted till April 10, the organisers disclosed yesterday.</p>\n<p>Last week, the Nilayo Sports Management Chief Executive Officer, Bukola Olopade, stated that the number of athletes taking part in the 2021 event was reduced from its usual 100,000 runners to 300 to stay within the regulatory procedure of the COVID-19 pandemic.</p>\n<p>Speaking on why it was postponed, Olopade stated that even though Lagos State government, the sponsors and the organisers were fully ready, there was the need to move the event forward to April 10 due to the second wave of the COVID-19 pandemic in the country.</p>\n<p>Olopade added: “We are not going to increase the number from 300 runners even though a lot of foreign athletes want to use the silver label Access Bank Lagos City marathon to cement their qualification for the Tokyo Olympics.</p>\n<p>“As we speak, this Lagos city marathon has been listed by World Athletics as qualifiers for the Tokyo Olympics. Even the April 10 date is already on their website,” Olopade said, adding that the 300 tickets available for the 2021 edition would be distributed to athletes both from the country and those coming from Kenya, Uganda, Ethiopia, United Kingdom, USA and other countries.</p>\n<p>“The 2021 Lagos City Marathon would be exclusive for the 42km race. The 10km race and the wheelchair race won’t be part of this year’s edition. The health of the athletes and everyone, who will attend the event, is very important to us. The absence of the 10km race won’t take away the glamour of the event.”</p>\n<p>“Lagos State has become a sports tourist attraction because of the Access Bank Lagos City Marathon. We are always happy to support and make sure that the marathon happens and get better every year. We are looking forward to the April 10 date to show to the world that Lagos is a destination place to visit,” Olopade stated.</p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>This year’s edition of the Access Bank Lagos City Marathon earlier slated for February 13, [&hellip;]</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 12720,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            81
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/posts/12719"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/comments?post=12719"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/posts/12719/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 12721,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/posts/12719/revisions/12721"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/media/12720"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/media?parent=12719"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/categories?post=12719"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/tags?post=12719"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 12716,
+        "date": "2021-03-28T23:44:07",
+        "date_gmt": "2021-03-28T22:44:07",
+        "guid": {
+            "rendered": "https://lagoscitymarathon.com/?p=12716"
+        },
+        "modified": "2021-03-28T23:44:19",
+        "modified_gmt": "2021-03-28T22:44:19",
+        "slug": "only-300-runners-for-2021-access-bank-lagos-city-marathon",
+        "status": "publish",
+        "type": "post",
+        "link": "https://lagoscitymarathon.com/only-300-runners-for-2021-access-bank-lagos-city-marathon/",
+        "title": {
+            "rendered": "Only 300 runners for 2021 Access Bank Lagos City m &hellip;"
+        },
+        "content": {
+            "rendered": "<p><strong>10km, wheelchair race out • Five journalists, 60 VIPs allowed</strong></p>\n<p>To stay within the COVID-19 protocol globally, organisers of the Access Bank Lagos City Marathon have decided to reduce the number of participants from its usual 100,000 runners to 300 for the 2021 edition, billed for February 13.</p>\n<p>The event had over 50,000 runners at the first edition and 73,000 in the second. The number had since increased to 100,000 runners, but the Chief Executive Officer of Nilayo Sports Management Company, Bukola Olopade, told The Guardian yesterday that the sixth edition holding on February 13 will only accommodate 300 runners.</p>\n<p>But there seems to be lot of pleasure from foreign athletes, who want to use the silver label Access Bank Lagos City marathon to cement their qualification for other top long distance races across the globe.</p>\n<p>Olopade hinted yesterday that of the 300 tickets available for the 2021 edition, foreign runners from Kenya, Uganda, Ethiopia, United Kingdom and the United States of America would get 240 slots, while the remaining tickets will go to selected Nigerian professional runners and clubs.</p>\n<p>“A lot of foreign athletes are mounting pleasure on us for tickets to enable them take part in this year’s edition. They want to use Access Bank Lagos City marathon to qualify for some other major marathon races across the world, but we cannot go more than the 300 number,” Olopade said. “We have gotten the approval from both Lagos State Sports Commission and Ministry of Health, and we must do it in accordance with the COVID-19 Protocol globally.”</p>\n<p>Olopade, a former sports commissioner in Ogun State disclosed that only five journalists would be allowed to cover this year’s edition, just as he hinted yesterday that the 2021 Lagos City Marathon would be exclusive for the 42km race. “The 10km race and the wheelchair race won’t be part of this year’s edition. The health of the athletes and everyone who will attend the event is very important to us. The absence of the 10km race won’t take away the glamour of the event.”</p>\n<p>Olopade also disclosed yesterday that apart from reducing the number of runners, they have also cut down on the number of personalities to be invited for the ceremony. “We won’t have more then 60 guests at the finish point, and everyone must wear nose mask and stay some meters away from one another. He commended Lagos State Government, particularly the Executive Chairman of Lagos State Sports Commission, Sola Aiyepeku, for his support.</p>\n<p>“Lagos State has become a sports tourist attraction because of the Access Bank Lagos City Marathon, so we are always happy to support and make sure that the Marathon happens and get better every year,” Olopade stated.</p>\n<p>&nbsp;</p>\n<p><strong>Source &#8211;</strong> https://guardian.ng/sport/only-300-runners-for-2021-access-bank-lagos-city-marathon/</p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>10km, wheelchair race out • Five journalists, 60 VIPs allowed To stay within the COVID-19 [&hellip;]</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 12717,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            81
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/posts/12716"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/comments?post=12716"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/posts/12716/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 12718,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/posts/12716/revisions/12718"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/media/12717"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/media?parent=12716"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/categories?post=12716"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://lagoscitymarathon.com/wp-json/wp/v2/tags?post=12716"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]
+
+        console.log('categories', posts[0].categories);
+        console.log('body', posts[0].content.rendered);
+        console.log('link', posts[0].link);
+        console.log('image', posts[0].jetpack_featured_media_url);
+        console.log('title', posts[0].title.rendered);
+        console.log('date', posts[0].date);
+
+        const postsContainer = document.querySelector('#postsContainer')
+
+        function blogCard(title, body){
+            const post = document.createElement('div')
+            post.classList.add(...['col-lg-4', 'col-md-6', 'mb-5'])
+
+            let content = ''
+            content += '<div class="position-relative mb-4">'
+                content += '<img class="img-fluid rounded w-100" src="img/2runners.jpg" alt="">'
+                    content += '<div class="blog-date">'
+                        content += '<h4 class="font-weight-bold mb-n1">01</h4><small class="text-white text-uppercase">Jan</small>'
+                    content += '</div>'
+            content += '</div>'
+            content += '<div class="d-flex mb-2">'
+                content += '<a class="text-uppercase" href="">Admin</a>'
+                content += '<span class="text-primary px-2">|</span>'
+                content += '<a class="text-uppercase" href="">Cleaning</a>'
+            content += '</div>'
+            content += `<h5 class="mb-2">${title}</h5>`
+            content += `<p class="mb-4">${body}</p>`
+            content += '<a class="btn btn-sm btn-primary py-2" href="">Read More</a>'
+
+            post.innerHTML = content
+
+            return post
+        }
+
+        for(let i = 0; i <= posts.length; i++){           
+            postsContainer.appendChild(blogCard(posts[i].title.rendered, posts[i].excerpt.rendered))
+        };
+        
+
+        // <div class="col-lg-4 col-md-6 mb-5">
+            // <div class="position-relative mb-4">
+            //     <img class="img-fluid rounded w-100" src="img/2runners.jpg" alt="">
+            //     <div class="blog-date">
+            //         <h4 class="font-weight-bold mb-n1">01</h4>
+            //         <small class="text-white text-uppercase">Jan</small>
+            //     </div>
+            // </div>
+            // <div class="d-flex mb-2">
+            //     <a class="text-uppercase" href="">Admin</a>
+            //     <span class="text-primary px-2">|</span>
+            //     <a class="text-uppercase" href="">Cleaning</a>
+            // </div>
+            // <h5 class="mb-2">Rebum lorem eos ipsum diam</h5>
+            // <p class="mb-4">Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna dolor amet</p>
+            // <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
+        // </div>
+
+
+    </script>
     
 </body>
 
