@@ -1,12 +1,23 @@
 // Populate countries select
 const countriesSelect = document.querySelector('#country')
-countries.forEach((country) => {
-    const option = document.createElement('option')
-    option.innerHTML = country
-    countriesSelect.appendChild(option)
-})
+if(countriesSelect) {
+    countries.forEach((country) => {
+        const option = document.createElement('option')
+        option.innerHTML = country
+        countriesSelect.appendChild(option)
+    })
+}
+
+
+const messages = {
+    runner: 'Thank you for registering to run at Opobo marathon 2023',
+    volunteer: 'Thank you for registering to volunteer at Opobo marathon 2023',
+    contact: 'Message sent. Our team would response appropriately'
+}
+
 
 function sendToGScript(data, messageContainer, accepted = true){
+    console.log(messages[data.formType]);
     if (accepted && Object.values(data).every(s => s !== "")) {
         try {
 
@@ -39,7 +50,7 @@ function sendToGScript(data, messageContainer, accepted = true){
             messageContainer.classList.add('text-white')
             messageContainer.classList.remove('d-none')
             messageContainer.scrollIntoView()
-            messageContainer.innerHTML = `Thank you for registering to ${data.formType === 'runner'? 'run' : 'volunteer'} at Opobo marathon 2023`
+            messageContainer.innerHTML = messages[data.formType]
             setTimeout(() => {              
                 messageContainer.classList.remove('bg-success')
                 messageContainer.classList.remove('text-white')
@@ -72,13 +83,13 @@ document.querySelectorAll('.runnersRegForm').forEach( (element) => {
             
         const messageContainer = e.target.querySelector('.messageContainer')
 
-        const data = {
+        const data = element.dataset.form != 'contact'? {
             firstName: e.target.firstName.value,
             lastName: e.target.lastName.value,
             email: e.target.email.value,
             address: e.target.address.value,
             phone:  e.target.phone.value
-        }
+        } : {}
 
         if (element.dataset.form === 'runner') {
             data.dateInput = e.target.date.value
@@ -97,6 +108,14 @@ document.querySelectorAll('.runnersRegForm').forEach( (element) => {
             data.department = e.target.department.value
             data.formType = 'volunteer'
 
+            sendToGScript(data, messageContainer)
+        } else if(element.dataset.form === 'contact') {
+            data.name = e.target.name.value,
+            data.email = e.target.email.value,
+            data.subject = e.target.subject.value,
+            data.message = e.target.message.value,
+            data.formType = 'contact'
+            // console.log(data)
             sendToGScript(data, messageContainer)
         } else {
 

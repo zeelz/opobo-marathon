@@ -94,6 +94,7 @@ a.text-secondary:hover, a.text-secondary:focus {
   border: solid #0a1027 1px;
   border-radius: 6px;
   padding: 5px;
+  overflow: hidden;
 }
 
 .navbar-toggler {
@@ -119,6 +120,11 @@ a.text-secondary:hover, a.text-secondary:focus {
 .register-bg {
   background-image: url(../img/runners.jpg);
   background-size: cover;
+}
+.contact-bg {
+  background-image: url(../img/conact-bg-2.jpg);
+  background-size: cover;
+  background-position-x: center;
 }
 
 .donate-bg {
