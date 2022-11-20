@@ -512,7 +512,7 @@
     </div>
 
     <!-- Blog Start -->
-    <div class="container-fluid py-5" style="background-color: rgba(0, 136 ,205, 0.2);">
+    <!-- <div class="container-fluid py-5" style="background-color: rgba(0, 136 ,205, 0.2);">
         <div class="container pt-5">
             <div class="row align-items-end mb-4">
                 <div class="col-12">
@@ -520,30 +520,9 @@
                     <h1 class="section-title mb-3">Latest Articles From Our Blog Post</h1>
                 </div>
             </div>
-            <div class="row" id="postsContainer">
-
-                <!-- <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/2runners.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">01</h4>
-                            <small class="text-white text-uppercase">Jan</small>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-2">
-                        <a class="text-uppercase" href="">Admin</a>
-                        <span class="text-primary px-2">|</span>
-                        <a class="text-uppercase" href="">Cleaning</a>
-                    </div>
-                    <h5 class="mb-2">Rebum lorem eos ipsum diam</h5>
-                    <p class="mb-4">Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna dolor amet</p>
-                    <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
-                </div> -->
-
-                
-            </div>
+            <div class="row" id="postsContainer"></div>
         </div>
-    </div>
+    </div> -->
     <!-- Blog End -->
 
 
@@ -949,12 +928,12 @@ const posts = [
     }
 ]
 
-        console.log('categories', posts[0].categories);
-        console.log('body', posts[0].content.rendered);
-        console.log('link', posts[0].link);
-        console.log('image', posts[0].jetpack_featured_media_url);
-        console.log('title', posts[0].title.rendered);
-        console.log('date', posts[0].date);
+        // console.log('categories', posts[0].categories);
+        // console.log('body', posts[0].content.rendered);
+        // console.log('link', posts[0].link);
+        // console.log('image', posts[0].jetpack_featured_media_url);
+        // console.log('title', posts[0].title.rendered);
+        // console.log('date', posts[0].date);
 
         const postsContainer = document.querySelector('#postsContainer')
 
@@ -983,9 +962,9 @@ const posts = [
             return post
         }
 
-        for(let i = 0; i <= posts.length; i++){           
-            postsContainer.appendChild(blogCard(posts[i].title.rendered, posts[i].excerpt.rendered))
-        };
+        // for(let i = 0; i <= posts.length; i++){           
+        //     postsContainer.appendChild(blogCard(posts[i].title.rendered, posts[i].excerpt.rendered))
+        // };
         
 
         // <div class="col-lg-4 col-md-6 mb-5">

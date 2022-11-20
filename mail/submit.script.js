@@ -16,8 +16,8 @@ const messages = {
 }
 
 
-function sendToGScript(data, messageContainer, accepted = true){
-    console.log(messages[data.formType]);
+function sendToGScript(data, messageContainer, element, accepted = true){
+
     if (accepted && Object.values(data).every(s => s !== "")) {
         try {
 
@@ -46,6 +46,9 @@ function sendToGScript(data, messageContainer, accepted = true){
             //
         }
         finally{
+
+            for(let i=0; i < element.elements.length; i++) { element.elements[i].value = ''}
+        
             messageContainer.classList.add('bg-success')
             messageContainer.classList.add('text-white')
             messageContainer.classList.remove('d-none')
@@ -101,14 +104,14 @@ document.querySelectorAll('.runnersRegForm').forEach( (element) => {
             data.visitedOpobo =  e.target.visitedOpobo.value
             data.formType = 'runner'
         
-            sendToGScript(data, messageContainer, e.target.acceptTerms.checked)
+            sendToGScript(data, messageContainer, element, e.target.acceptTerms.checked)
 
         } else if(element.dataset.form === 'volunteer') {
             data.ageRange = e.target.ageRange.value
             data.department = e.target.department.value
             data.formType = 'volunteer'
 
-            sendToGScript(data, messageContainer)
+            sendToGScript(data, messageContainer, element)
         } else if(element.dataset.form === 'contact') {
             data.name = e.target.name.value,
             data.email = e.target.email.value,
@@ -116,7 +119,7 @@ document.querySelectorAll('.runnersRegForm').forEach( (element) => {
             data.message = e.target.message.value,
             data.formType = 'contact'
             // console.log(data)
-            sendToGScript(data, messageContainer)
+            sendToGScript(data, messageContainer, element)
         } else {
 
         }
