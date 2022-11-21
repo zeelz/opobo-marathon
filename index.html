@@ -512,17 +512,17 @@
     </div>
 
     <!-- Blog Start -->
-    <!-- <div class="container-fluid py-5" style="background-color: rgba(0, 136 ,205, 0.2);">
+    <div class="container-fluid py-5" style="background-color: rgba(0, 136 ,205, 0.2);">
         <div class="container pt-5">
             <div class="row align-items-end mb-4">
                 <div class="col-12">
-                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Latest Blog</h6>
+                    <h6 class="text-primary font-weight-semi-bold text-uppercase mb-3">Latest Blog</h6>
                     <h1 class="section-title mb-3">Latest Articles From Our Blog Post</h1>
                 </div>
             </div>
             <div class="row" id="postsContainer"></div>
         </div>
-    </div> -->
+    </div>
     <!-- Blog End -->
 
 
@@ -532,12 +532,12 @@
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="font-weight-light mb-4 text-white mb-4">Get In Touch</h4>
                 <p><i class="fa fa-phone-alt text-primary mr-2"></i>+234 816 677 1851</p>
+                <p><i class="fa fa-phone-alt text-primary mr-2"></i>+234 706 289 1017</p>
                 <p><i class="fa fa-envelope text-primary mr-2"></i>info@opobomarathon.com</p>
                 <div class="d-flex justify-content-start mt-4">
-                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <!-- <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a> -->
-                    <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="https://twitter.com/OpoboMarathon"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="https://facebook.com/OpoboMarathon"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-light btn-social" href="https://instagram.com/OpoboMarathon"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
@@ -601,7 +601,7 @@
 
     <script>
 
-const posts = [
+const posts__ = [
     {
         "id": 12722,
         "date": "2021-03-28T23:50:19",
@@ -961,6 +961,15 @@ const posts = [
 
             return post
         }
+
+
+        fetch('https://opobomarathon.com/blog/wp-json/wp/v2/posts?per_page=3&page=1')
+            .then((res) => res.json())
+            .then((posts) => {
+                for(let i = 0; i <= posts.length; i++){           
+                    postsContainer.appendChild(blogCard(posts[i].title.rendered, posts[i].excerpt.rendered))
+                };
+            })
 
         // for(let i = 0; i <= posts.length; i++){           
         //     postsContainer.appendChild(blogCard(posts[i].title.rendered, posts[i].excerpt.rendered))
