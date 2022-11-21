@@ -86,14 +86,14 @@ a.text-secondary:hover, a.text-secondary:focus {
 }
 
 .sponsor-logo {
-  width: 250px;
-  height: 150px;
+  width: 200px;
+  height: 120px;
   background: #FFF;
   align-items: center;
   display: flex;
-  border: solid #0a1027 1px;
+  border: solid #cfcfcf 1px;
   border-radius: 6px;
-  padding: 5px;
+  /* padding: 5px; */
   overflow: hidden;
 }
 
