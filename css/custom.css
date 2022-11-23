@@ -144,6 +144,17 @@ a.text-secondary:hover, a.text-secondary:focus {
   background-position-y: bottom;
 }
 
+.bg-opobo-map {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/airport-opobo-map.png), no-repeat center center;
+  background-size: cover;
+  background-position-y: bottom;
+}
+
+.bg-hotel {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hotel.jpg), no-repeat center center;
+  background-size: cover;
+  background-position-y: bottom;
+}
 button.bg-secondary:focus,
 #donateForm button.active,
 #donateForm button:hover:not(button[type='submit']) {

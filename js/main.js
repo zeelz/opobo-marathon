@@ -101,7 +101,10 @@
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
 
-
+    // click first group on load - zeelz
+    if( document.querySelector('#portfolio-flters li') ) {
+        document.querySelector('#portfolio-flters li').click()
+    }
     // Team carousel
     $(".team-carousel").owlCarousel({
         autoplay: true,
