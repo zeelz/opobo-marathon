@@ -8,6 +8,21 @@ if(countriesSelect) {
     })
 }
 
+function responseHandler(container, message, status = 'failed'){
+    if (status === 'success') {            
+        container.classList.remove('bg-danger')
+        container.classList.add('bg-success')
+    } else {
+        container.classList.remove('bg-success')
+        container.classList.add('bg-danger')
+    }
+    container.classList.remove('d-none')
+    container.innerHTML = message
+    container.scrollIntoView()
+    setTimeout(() => {
+        container.classList.add('d-none')
+    }, 5000);       
+}
 
 const messages = {
     runner: 'Thank you for registering to run at Opobo marathon 2023',
@@ -15,71 +30,44 @@ const messages = {
     contact: 'Message sent. Our team would response appropriately'
 }
 
+function sendToGScript(payload, messageContainer, element, accepted = true){
 
-function sendToGScript(data, messageContainer, element, accepted = true){
-
-    if (accepted && Object.values(data).every(s => s !== "")) {
+    if (accepted && Object.values(payload).every(s => s !== "")) {
         try {
-
-            fetch(googleScriptURL, {
+            axios({
+                url: googleScriptURL,
                 method: 'POST',
-                mode: "no-cors",
-                cache: "no-cache",
                 headers: {
-                    'Content-Type': 'application/json'
+                    'content-type': 'text/plain'
                 },
-                redirect: "follow",
-                body: JSON.stringify(data)
+                responseType: 'json',
+                data: JSON.stringify(payload)
             })
-            .then(res => {
-                // if (res.message === 'success') {
-                    console.log(res)
-                    // send mail
-                    // mailSender.email.value = email
-                    // mailSender.submit()
-                // }
+                .then(({data}) => {
+                    // console.log(data)
+                    if (data.status === 'success') {
+                        for(let i=0; i < element.elements.length; i++) { element.elements[i].value = ''}
+                        // Output HTML response
+                        responseHandler(messageContainer, messages[payload.formType], 'success')
+                        
+                    } else if(data.status === 'emailexists') {
+                        responseHandler(messageContainer, data.message)
+                    }
 
-            })
-            .catch(err => console.log(err))
+                })
+                .catch((err) => console.log(err))
         }
         catch(e){
-            //
-        }
-        finally{
-
-            for(let i=0; i < element.elements.length; i++) { element.elements[i].value = ''}
-        
-            messageContainer.classList.add('bg-success')
-            messageContainer.classList.add('text-white')
-            messageContainer.classList.remove('d-none')
-            messageContainer.scrollIntoView()
-            messageContainer.innerHTML = messages[data.formType]
-            setTimeout(() => {              
-                messageContainer.classList.remove('bg-success')
-                messageContainer.classList.remove('text-white')
-                messageContainer.classList.add('d-none')
-            }, 5000);
+            console.log(e);
         }
     } else {
-        messageContainer.classList.add('bg-secondary')
-        messageContainer.classList.add('text-danger')
-        messageContainer.classList.remove('d-none')
-        messageContainer.scrollIntoView()
-        messageContainer.innerHTML = 'All fields are required' 
-        setTimeout(() => {           
-            messageContainer.classList.remove('bg-secondary')
-            messageContainer.classList.remove('text-danger')
-            messageContainer.classList.add('d-none')
-        }, 5000);
-        
+        responseHandler(messageContainer, 'All fields are required')
     }
 }
 
 const googleScriptURL = 'https://script.google.com/macros/s/AKfycbwkZtOkGYmO0P_JPPSPkg_cUxT_oeCEfDS852pPgYLNnjVT3xZHPo3080G7YS-6uHLuWw/exec';
 
-
 document.querySelectorAll('.runnersRegForm').forEach( (element) => {
-    
 
     element.addEventListener('submit', function(e){
         e.preventDefault()
@@ -102,16 +90,15 @@ document.querySelectorAll('.runnersRegForm').forEach( (element) => {
             data.country = e.target.country.value
             data.raceChoice = e.target.raceChoice.value
             data.visitedOpobo =  e.target.visitedOpobo.value
-            data.formType = 'runner'
-        
+            data.formType = 'runner'        
             sendToGScript(data, messageContainer, element, e.target.acceptTerms.checked)
 
         } else if(element.dataset.form === 'volunteer') {
             data.ageRange = e.target.ageRange.value
             data.department = e.target.department.value
             data.formType = 'volunteer'
-
             sendToGScript(data, messageContainer, element)
+
         } else if(element.dataset.form === 'contact') {
             data.name = e.target.name.value,
             data.email = e.target.email.value,
