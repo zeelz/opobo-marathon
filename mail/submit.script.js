@@ -3,6 +3,7 @@ const countriesSelect = document.querySelector('#country')
 if(countriesSelect) {
     countries.forEach((country) => {
         const option = document.createElement('option')
+        if (country === 'Nigeria') option.setAttribute('selected', true)
         option.innerHTML = country
         countriesSelect.appendChild(option)
     })
@@ -32,7 +33,8 @@ const messages = {
 
 function sendToGScript(payload, messageContainer, element, accepted = true){
 
-    if (accepted && Object.values(payload).every(s => s !== "")) {
+    // if (accepted && Object.values(payload).every(s => s !== "")) {
+    if(false) {
         try {
             axios({
                 url: googleScriptURL,
@@ -61,7 +63,8 @@ function sendToGScript(payload, messageContainer, element, accepted = true){
             console.log(e);
         }
     } else {
-        responseHandler(messageContainer, 'All fields are required')
+        // responseHandler(messageContainer, 'All fields are required')
+        responseHandler(messageContainer, 'An error occurred')
     }
 }
 
