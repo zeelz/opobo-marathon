@@ -33,8 +33,7 @@ const messages = {
 
 function sendToGScript(payload, messageContainer, element, accepted = true){
 
-    // if (accepted && Object.values(payload).every(s => s !== "")) {
-    if(false) {
+    if (accepted && Object.values(payload).every(s => s !== "")) {
         try {
             axios({
                 url: googleScriptURL,
@@ -63,8 +62,7 @@ function sendToGScript(payload, messageContainer, element, accepted = true){
             console.log(e);
         }
     } else {
-        // responseHandler(messageContainer, 'All fields are required')
-        responseHandler(messageContainer, 'An error occurred')
+        responseHandler(messageContainer, 'All fields are required')
     }
 }
 
