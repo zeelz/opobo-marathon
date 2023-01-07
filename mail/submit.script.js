@@ -63,6 +63,7 @@ function sendToGScript(payload, messageContainer, element, accepted = true){
         }
     } else {
         responseHandler(messageContainer, 'All fields are required')
+        responseHandler(messageContainer, 'Registration ')
     }
 }
 
