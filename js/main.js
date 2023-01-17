@@ -167,25 +167,28 @@
     }
     //end
   
-    const countDown = new Date(birthday).getTime()
-    const x = setInterval(function() {    
+    // const countDown = new Date(birthday).getTime()
+    // const x = setInterval(function() {    
 
-        const now = new Date().getTime()
-        const distance = countDown - now;
+    //     const now = new Date().getTime()
+    //     const distance = countDown - now;
 
-        if(document.getElementById("countdown")){
-            document.getElementById("days").innerText = Math.floor(distance / (day))
-            document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour))
-            document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute))
-            document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+    //     if(document.getElementById("countdown")){
+    //         document.getElementById("days").innerText = Math.floor(distance / (day))
+    //         document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour))
+    //         document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute))
+    //         document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
 
-            //do something later when date is reached
-            if (distance < 0) {
-            document.getElementById("countdown").style.display = "none";
-            clearInterval(x);
-            }
-        }
+    //         //do something later when date is reached
+    //         if (distance < 0) {
+    //         document.getElementById("countdown").style.display = "none";
+    //         clearInterval(x);
+    //         }
+    //     }
         
-    }, 0)
+    // }, 0)
+
+    // To turn it on uncomment above and comment below line
+    document.getElementById("countdown").style.display = "none";
 
 }());
