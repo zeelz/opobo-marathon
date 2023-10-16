@@ -20,5 +20,5 @@
 <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
 <!-- Customized Bootstrap Stylesheet -->
-<link href="css/style.css" rel="stylesheet">
-<link href="css/custom.css" rel="stylesheet">
+<link href="/css/style.css" rel="stylesheet">
+<link href="/css/custom.css" rel="stylesheet">

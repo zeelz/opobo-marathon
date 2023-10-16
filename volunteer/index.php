@@ -273,10 +273,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.0/axios.min.js" integrity="sha512-OdkysyYNjK4CZHgB+dkw9xQp66hZ9TLqmS2vXaBrftfyJeduVhyy1cOfoxiKdi4/bfgpco6REu6Rb+V2oVIRWg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="/mail/jqBootstrapValidation.min.js"></script>
     <!-- <script src="mail/contact.js"></script> -->
-    <script src="js/countries.js"></script>
-    <script src="mail/submit.script.js" type="module"></script>
+    <script src="/js/countries.js"></script>
+    <script src="/mail/submit.script.js" type="module"></script>
 
     <script>
         const params = new URLSearchParams(location.search)
