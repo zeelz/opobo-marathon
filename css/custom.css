@@ -1,10 +1,19 @@
+.navbar-light .navbar-nav {
+  gap: 30px;
+}
+  
 .navbar-light .navbar-nav .nav-link {
   color: var(--primary);
+  font-weight: unset;
+  padding: 8px 0px;
+  /* border-radius: 5px; */
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: var(--secondary);
+  color: var(--primary);
+  border-bottom: solid 2px var(--primary);
+
 }
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .navbar-nav .nav-link:focus {
@@ -118,8 +127,10 @@ a.text-secondary:hover, a.text-secondary:focus {
 }
 
 .register-bg {
-  background-image: url(../img/runners.jpg);
+  background-image: linear-gradient(225deg, #0013ff70, #0013ff), 
+                    url(../img/runners.jpg);
   background-size: cover;
+  background-position: center;
 }
 .contact-bg {
   background-image: url(../img/conact-bg-2.jpg);
@@ -218,4 +229,38 @@ button.bg-secondary:focus,
 
 .footer {
   font-size: smaller;
+}
+
+.form-control.btn-blue{
+  background-color: var(--blue);
+  color: #FFF,
+}
+
+.form-control.btn-blue:hover{
+  opacity: .8;
+}
+
+.volunteer-form .form-control {
+  border: solid 1px var(--blue);
+  /* padding-top: 1.6rem;
+  padding-bottom: 1.6rem; */
+  /* height: 1.6rem; */
+
+  /* change - if you find where they are set 
+    you want update from there and remove these 
+  */
+  border-radius: 5px;
+}
+
+.vertically-center {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .vertically-center {
+    height: 100vh;
+  }
 }

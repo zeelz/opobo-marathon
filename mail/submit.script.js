@@ -20,9 +20,15 @@ function responseHandler(container, message, status = 'failed'){
     container.classList.remove('d-none')
     container.innerHTML = message
     container.scrollIntoView()
-    setTimeout(() => {
-        container.classList.add('d-none')
-    }, 5000);       
+
+    // remove error bar on blur of any input
+    container.parentNode
+        .querySelectorAll("input")
+        .forEach(i => {
+            i.addEventListener('blur', (e) => {
+                container.classList.add('d-none')
+            })
+        })
 }
 
 const messages = {
@@ -38,8 +44,9 @@ function sendToGScript(payload, messageContainer, element, accepted = true){
             axios({
                 url: googleScriptURL,
                 method: 'POST',
+                redirect: 'follow',
                 headers: {
-                    'content-type': 'text/plain'
+                    'Content-Type': 'text/plain;charset=utf-8'
                 },
                 responseType: 'json',
                 data: JSON.stringify(payload)
@@ -58,12 +65,12 @@ function sendToGScript(payload, messageContainer, element, accepted = true){
                 })
                 .catch((err) => console.log(err))
         }
-        catch(e){
-            console.log(e);
+        catch(err){
+            console.log(err);
         }
     } else {
         responseHandler(messageContainer, 'All fields are required')
-        responseHandler(messageContainer, 'Registration ')
+        // responseHandler(messageContainer, 'Registration ')
     }
 }
 
