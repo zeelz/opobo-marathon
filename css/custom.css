@@ -236,7 +236,7 @@ button.bg-secondary:focus,
   color: #FFF,
 }
 
-.form-control.btn-blue:hover{
+.form-control:not([disabled]).btn-blue:hover{
   opacity: .8;
 }
 

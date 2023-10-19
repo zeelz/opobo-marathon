@@ -37,9 +37,18 @@ const messages = {
     contact: 'Message sent. Our team would response appropriately'
 }
 
-function sendToGScript(payload, messageContainer, element, accepted = true){
+function sendToGScript(payload, outputEl, fm, accepted){
+    const btn = fm.querySelector('button')
 
-    if (accepted && Object.values(payload).every(s => s !== "")) {
+    if (Object.values(payload).every(s => s !== "")) {
+        if (!accepted) {
+                responseHandler(outputEl, 'You have to accept the terms to submit')
+                return null
+        }
+
+        btn.setAttribute('disabled', 'disabled')
+        btn.textContent = 'Submitting...'
+
         try {
             axios({
                 url: googleScriptURL,
@@ -51,41 +60,44 @@ function sendToGScript(payload, messageContainer, element, accepted = true){
                 responseType: 'json',
                 data: JSON.stringify(payload)
             })
-                .then(({data}) => {
-                    // console.log(data)
+                .then(({data}) => {                    
                     if (data.status === 'success') {
-                        for(let i=0; i < element.elements.length; i++) { element.elements[i].value = ''}
+                        // clear fields
+                        for(let i=0; i < fm.elements.length; i++) { fm.elements[i].value = ''}
                         // Output HTML response
-                        responseHandler(messageContainer, messages[payload.formType], 'success')
+                        responseHandler(outputEl, messages[payload.formType], 'success')
                         
                     } else if(data.status === 'emailexists') {
-                        responseHandler(messageContainer, data.message)
+                        responseHandler(outputEl, data.message)
                     }
+
+                    btn.removeAttribute('disabled')
+                    btn.textContent = 'Submit'
 
                 })
                 .catch((err) => console.log(err))
-        }
-        catch(err){
+
+        } catch(err){
             console.log(err);
         }
+        
     } else {
-        responseHandler(messageContainer, 'All fields are required')
-        // responseHandler(messageContainer, 'Registration ')
+        responseHandler(outputEl, 'All fields are required')
     }
 }
 
-const googleScriptURL = 'https://script.google.com/macros/s/AKfycbyzVV114UFW3k3Q0u2k0VV6A9hRxtiSaw6wXDs_fUnx2hfIh3pWkmEO92m9BbpQ8GMD5g/exec';
+const googleScriptURL = 'https://script.google.com/macros/s/AKfycbynWHLh0eOU-2JUyW-f4k9vNgDIbLpq9jCg82AcVWBr1BdyyOu_FltZP-Aiastwyw1Giw/exec';
 
 document
     .querySelectorAll('.runnersRegForm')
-    .forEach( (element) => {
+    .forEach( (fm) => {
 
-        element.addEventListener('submit', function(e){
+        fm.addEventListener('submit', function(e){
             e.preventDefault()
                 
-            const messageContainer = e.target.querySelector('.messageContainer')
+            const outputEl = e.target.querySelector('.output')
 
-            const data = element.dataset.form != 'contact'? {
+            const data = fm.dataset.form != 'contact'? {
                 firstName: e.target.firstName.value,
                 lastName: e.target.lastName.value,
                 email: e.target.email.value,
@@ -93,7 +105,7 @@ document
                 phone:  e.target.phone.value
             } : {}
 
-            if (element.dataset.form === 'runner') {
+            if (fm.dataset.form === 'runner') {
                 data.dateInput = e.target.date.value
                 data.sex = e.target.sex.value
                 data.state = e.target.state.value
@@ -101,28 +113,36 @@ document
                 data.country = e.target.country.value
                 data.raceChoice = e.target.raceChoice.value
                 data.visitedOpobo =  e.target.visitedOpobo.value
-                data.formType = 'runner'        
-                sendToGScript(data, messageContainer, element, e.target.acceptTerms.checked)
+                data.formType = fm.dataset.form     
+                sendToGScript(data, outputEl, fm, e.target.acceptTerms.checked)
 
-            } else if(element.dataset.form === 'volunteer') {
+            } else if(fm.dataset.form === 'volunteer') {
 
-                // const fd = new FormData(element)
+                // const fd = new FormData(e.target)
                 // fd.forEach((v,k) => console.log(v,k))
-                // console.log(fd);
+                // for(const [k,v] of fd.entries()) {
+                //     console.log(k, v);
+                // }
+                // return null
                 
                 data.ageRange = e.target.ageRange.value
                 data.department = e.target.department.value
-                data.formType = 'volunteer'
-                sendToGScript(data, messageContainer, element)
+                data.tshirtSize = e.target.tshirtSize.value
+                data.whyVolunteer = e.target.whyVolunteer.value
+                data.visitedOpobo = e.target.visitedOpobo.value
+                data.hasSocial = e.target.hasSocial.value
+                data.formType = fm.dataset.form
 
-            } else if(element.dataset.form === 'contact') {
+                sendToGScript(data, outputEl, fm, e.target.consent.checked)
+
+            } else if(fm.dataset.form === 'contact') {
                 data.name = e.target.name.value,
                 data.email = e.target.email.value,
                 data.subject = e.target.subject.value,
                 data.message = e.target.message.value,
                 data.formType = 'contact'
                 // console.log(data)
-                sendToGScript(data, messageContainer, element)
+                sendToGScript(data, outputEl, fm)
             } else {
 
             }
