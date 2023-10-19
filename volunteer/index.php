@@ -230,6 +230,7 @@
                                                     <option>Race management</option>
                                                     <option>Operation</option>
                                                     <option>Event Experience</option>
+                                                    <option>Technical</option>
                                                     <option>Media and Communication</option>
                                                     <option>Medical</option>
                                                 </select>
@@ -243,7 +244,9 @@
                                                     <option selected disabled>What is your T-shirt size?</option>
                                                     <option>Small</option>
                                                     <option>Medium</option>
-                                                    <option>Lagos</option>
+                                                    <option>Large</option>
+                                                    <option>XL</option>
+                                                    <option>XXL</option>
                                                 </select>
                                             </div>
                                             <small class="help-block text-danger"></small>

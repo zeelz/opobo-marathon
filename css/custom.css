@@ -264,3 +264,13 @@ button.bg-secondary:focus,
     height: 100vh;
   }
 }
+
+input[type=radio] {
+  width: 16px!important;
+  height: 16px!important;
+}
+
+input[type=checkbox] {
+  width: 40px!important;
+  height: 40px!important;
+}
