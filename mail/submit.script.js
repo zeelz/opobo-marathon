@@ -86,7 +86,7 @@ function sendToGScript(payload, outputEl, fm, accepted){
     }
 }
 
-const googleScriptURL = 'https://script.google.com/macros/s/AKfycbynWHLh0eOU-2JUyW-f4k9vNgDIbLpq9jCg82AcVWBr1BdyyOu_FltZP-Aiastwyw1Giw/exec';
+const googleScriptURL = 'https://script.google.com/macros/s/AKfycbwfzISNEWI5ijmnPZICk1ELxHmfEP6xxCqYsSazbraNmWk6UUzLj6SuVwXhj9ZGA5pIlw/exec';
 
 document
     .querySelectorAll('.runnersRegForm')
