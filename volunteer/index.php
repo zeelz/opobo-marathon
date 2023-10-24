@@ -4,7 +4,19 @@
 <?php $page = 'registrations'; ?>
 
 <head>
-    <title>Registrations - Opobo Marathon 2023</title>
+    <title>Volunteer - Opobo Marathon 2024</title>
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://opobomarathon.com/volunteer/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://opobomarathon.com/img/theme-logo.png">
+
+    <!-- Twitter Meta Tags -->
+    <!-- <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="opobomarathon.com">
+    <meta property="twitter:url" content="https://opobomarathon.com/volunteer/">
+    <meta name="twitter:image" content=""> -->
+
     <?php include('../partials/head.php'); ?>
 </head>
 
