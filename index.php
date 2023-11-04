@@ -4,7 +4,7 @@
 <?php $page = 'home'; ?>
 
 <head>
-    <title>Home - Opobo Marathon 2023</title>
+    <title>Home - Opobo Marathon 2024</title>
     <?php include('./partials/head.php'); ?>
 </head>
 
