@@ -1,4 +1,4 @@
-<div class="container-fluid px-5">
+<div class="container-fluid bg-light px-5 border border-bottom-1 border-primary">
     <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="row d-flex w-100 align-items-center m-0 position-absolute__" style="z-index: 10">
 
@@ -24,11 +24,13 @@
                             <a href="gallery" class="nav-item nav-link <?php echo $page === 'gallery' ? 'active' : ''; ?>">Gallery</a>
                             <a href="see-opobo" class="nav-item nav-link <?php echo $page === 'see opobo' ? 'active' : ''; ?>">See Opobo</a>
                             <a href="contact" class="nav-item nav-link <?php echo $page === 'contact' ? 'active' : ''; ?>">Contact</a>
+
+                            <a href="/donate" class="d-none d-lg-block nav-item nav-link rounded-pill px-4 bg-primary text-white <?php echo $page === 'donate' ? 'active' : ''; ?>">Donate</a>
                         </div>
 
                         <div class="text-center text-lg-right pb-2 d-lg-none">
-                            <div class="d-inline-flex align-items-center pr-2">
-                                <a href="#" class="btn btn-primary">Donate</a>
+                            <div class="d-inline-flex align-items-center">
+                                <a href="/donate" class="btn btn-primary">Donate</a>
                             </div>
                         </div>
                     </div>

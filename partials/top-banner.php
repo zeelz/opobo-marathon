@@ -1,4 +1,5 @@
-<div class="container-fluid px-5">
+<!-- hidden -->
+<div class="d-none container-fluid px-5">
     <div class="row">
 
         <div class="col d-flex justify-content-end align-items-center text-dark mt-4">

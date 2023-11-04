@@ -10,36 +10,8 @@
 
 <body>
     <!-- Header Start -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="row bg-dark">
-                    <div class="col-lg-6 text-left text-white d-none d-lg-flex">
-                        <!-- <div class="h-100 d-inline-flex align-items-center border-right border-primary py-2 px-3">
-                            <i class="fa fa-envelope text-primary mr-2"></i>
-                            <small>info@example.com</small>
-                        </div> -->
-                        <div class="h-100 d-inline-flex align-items-center py-2 px-2">
-                            <span class="pr-2">Sponsorship</span>
-                            <i class="fa fa-phone-alt text-primary mr-2"></i>
-                            <small>+234 906 345 6789</small>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 text-center text-lg-right text-secondary">
-                        <div id="countdown">
-                            <ul class="m-0 p-0">
-                                <li><span id="days"></span>days</li>
-                                <li><span id="hours"></span>Hr</li>
-                                <li><span id="minutes"></span>Min</li>
-                                <li><span id="seconds"></span>Sec</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include('../partials/top-banner.php');
+    ?>
     <!-- Header End -->
 
     <!-- navigation -->

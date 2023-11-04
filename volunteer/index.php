@@ -22,16 +22,16 @@
 
 <body>
     <!-- Header Start -->
-    <?php // include('../partials/top-banner.php'); 
+    <?php include('../partials/top-banner.php');
     ?>
     <!-- Header End -->
 
     <!-- navigation -->
-    <?php // include('../partials/nav.php'); 
+    <?php include('../partials/nav.php');
     ?>
 
     <!-- Page Header Start -->
-    <?php // include('../partials/page-header.php'); 
+    <?php include('../partials/page-header.php');
     ?>
     <!-- Page Header End -->
 
