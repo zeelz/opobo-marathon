@@ -19,7 +19,7 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                         <div class="navbar-nav py-0">
                             <a href="/" class="nav-item nav-link <?php echo $page === 'home' ? 'active' : ''; ?>">Home</a>
-                            <a href="/" class="nav-item nav-link <?php echo $page === 'registrations' ? 'active' : ''; ?>">Registrations</a>
+                            <a href="/#regs" class="nav-item nav-link <?php echo $page === 'registrations' ? 'active' : ''; ?>">Registrations</a>
                             <a href="/about" class="nav-item nav-link <?php echo $page === 'about' ? 'active' : ''; ?>">About</a>
                             <a href="/gallery" class="nav-item nav-link <?php echo $page === 'gallery' ? 'active' : ''; ?>">Gallery</a>
                             <a href="/see-opobo" class="nav-item nav-link <?php echo $page === 'see opobo' ? 'active' : ''; ?>">See Opobo</a>

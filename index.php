@@ -77,7 +77,7 @@
 
 
     <!-- Contact Info Start -->
-    <div class="container-fluid pb-lg-5 contact-info">
+    <div id="regs" class="container-fluid pb-lg-5 contact-info">
         <div class="row">
             <div class="col-lg-4 p-0">
                 <div class="contact-info-item d-flex align-items-center justify-content-center bg-dark text-white py-4 py-lg-0">
