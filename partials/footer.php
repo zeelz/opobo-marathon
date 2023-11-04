@@ -45,7 +45,7 @@
     <div class="row">
         <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
             <p class="m-0 text-white">&copy;
-                <a href="#">Connect Opobo</a>. All Rights Reserved.
+                <a href="#">Connect Opobo Resources Ltd</a>. All Rights Reserved.
 
                 <a href="terms">Waiver and Release of Liability</a>
             </p>
