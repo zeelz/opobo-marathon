@@ -19,11 +19,11 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                         <div class="navbar-nav py-0">
                             <a href="/" class="nav-item nav-link <?php echo $page === 'home' ? 'active' : ''; ?>">Home</a>
-                            <a href="register" class="nav-item nav-link <?php echo $page === 'registrations' ? 'active' : ''; ?>">Registrations</a>
-                            <a href="about" class="nav-item nav-link <?php echo $page === 'about' ? 'active' : ''; ?>">About</a>
-                            <a href="gallery" class="nav-item nav-link <?php echo $page === 'gallery' ? 'active' : ''; ?>">Gallery</a>
-                            <a href="see-opobo" class="nav-item nav-link <?php echo $page === 'see opobo' ? 'active' : ''; ?>">See Opobo</a>
-                            <a href="contact" class="nav-item nav-link <?php echo $page === 'contact' ? 'active' : ''; ?>">Contact</a>
+                            <a href="/register" class="nav-item nav-link <?php echo $page === 'registrations' ? 'active' : ''; ?>">Registrations</a>
+                            <a href="/about" class="nav-item nav-link <?php echo $page === 'about' ? 'active' : ''; ?>">About</a>
+                            <a href="/gallery" class="nav-item nav-link <?php echo $page === 'gallery' ? 'active' : ''; ?>">Gallery</a>
+                            <a href="/see-opobo" class="nav-item nav-link <?php echo $page === 'see opobo' ? 'active' : ''; ?>">See Opobo</a>
+                            <a href="/contact" class="nav-item nav-link <?php echo $page === 'contact' ? 'active' : ''; ?>">Contact</a>
 
                             <a href="/donate" class="d-none d-lg-block nav-item nav-link rounded-pill px-4 bg-primary text-white <?php echo $page === 'donate' ? 'active' : ''; ?>">Donate</a>
                         </div>
