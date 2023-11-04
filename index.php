@@ -85,7 +85,7 @@
                     <i class="fas fa-2x fa-user-plus text-secondary mr-2"></i>
                     <div class="">
                         <h5 class="mb-2 text-secondary text-uppercase">
-                            <a href="/register" class="text-secondary">Register to Run</a>
+                            <a href="#" class="text-secondary">Register to Run</a>
                         </h5>
                     </div>
                 </div>
