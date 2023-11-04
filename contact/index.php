@@ -4,7 +4,7 @@
 <?php $page = 'contact'; ?>
 
 <head>
-    <title>Contact Us - Opobo Marathon 2023</title>
+    <title>Contact Us - Opobo Marathon 2024</title>
     <?php include('../partials/head.php'); ?>
 </head>
 

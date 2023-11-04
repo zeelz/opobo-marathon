@@ -49,7 +49,7 @@
                         <!-- <p>Registration for the next marathon hasn't began. Watch this space.</p> -->
 
                         <h1 class="text-white mb-3">Volunteer Registration</h1>
-                        <!-- <p class="text-white">Do you want to be part of Opobo Marathon team? Good news for you! Volunteer at the 2023 Opobo Marathon to ensure the event runs smoothly for all participants. Sign up here!</p> -->
+                        <!-- <p class="text-white">Do you want to be part of Opobo Marathon team? Good news for you! Volunteer at the 2024 Opobo Marathon to ensure the event runs smoothly for all participants. Sign up here!</p> -->
 
                         <!-- <p class="text-white">Volunteer positions include bag stuffing, assisting with bib and t-shirt pick up, fun zone assistant, helping in the official merchandise area, gear check, volunteer check-in, people moving, start and finish line assistant, awards ceremonies, clothing collection, handing out Gatorade and water, handing out heat sheets, handing our refreshments, and more!</p> -->
 
@@ -75,10 +75,10 @@
                                     <!-- temporary -->
                                     <!-- <p>Registration for the next marathon hasn't began. Watch this space.</p> -->
 
-                                    <h1 class="section-title mb-3">Opobo Marathon 2023</h1>
+                                    <h1 class="section-title mb-3">Opobo Marathon 2024</h1>
 
                                     <h5 class="text-primary">Runner's Entitlements</h5>
-                                    <p>OM2023 Running Singlet, Running Belt, and Finisher Medal, Marathon Finisher T-shirt <strong>(for official finishers only)</strong></p>
+                                    <p>OM2024 Running Singlet, Running Belt, and Finisher Medal, Marathon Finisher T-shirt <strong>(for official finishers only)</strong></p>
 
                                     <h5 class="text-primary">Results</h5>
                                     <p>Crossing the Opobo Marathon finish line is an experience like no other, an experience that no one can ever take away from you. Whatever the outcome, <strong>YOU ARE A FINISHER</strong>.</p>
@@ -172,7 +172,7 @@
                                         </div>
                                         <div class="mt-2">
                                             <h6 class="text-secondary">Disclaimer</h6>
-                                            <small class="text-muted">By submitting this form, I hereby attest that I am medically and physically fit for this Marathon. Thus, I hereby indemnify the organisers, sponsors or its associates from any form of liability arising from my participation in the Opobo Marthon 2023.</small>
+                                            <small class="text-muted">By submitting this form, I hereby attest that I am medically and physically fit for this Marathon. Thus, I hereby indemnify the organisers, sponsors or its associates from any form of liability arising from my participation in the Opobo Marthon 2024.</small>
                                             <div class="mt-2">
                                                 <input type="checkbox" id="acceptTerms" value="accepted">
                                                 <label for="">I have read and accept the <a href="terms">Waiver and Release of Liability</a> terms

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Waiver and Release of Liability - Opobo Marathon 2023</title>
+    <title>Waiver and Release of Liability - Opobo Marathon 2024</title>
     <?php include('../partials/head.php'); ?>
 </head>
 

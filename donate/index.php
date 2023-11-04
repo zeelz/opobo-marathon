@@ -4,7 +4,7 @@
 <?php $page = 'donate'; ?>
 
 <head>
-    <title>Donation - Opobo Marathon 2023</title>
+    <title>Donation - Opobo Marathon 2024</title>
     <?php include('../partials/head.php'); ?>
 </head>
 
