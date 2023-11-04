@@ -31,7 +31,7 @@
                 ?>
 
                 <div class="carousel-item active">
-                    <img class="img-fluid" src="img/runners.jpg" alt="Image">
+                    <img class="img-fluid" src="/img/runners.jpg" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h2 class="text-secondary text-uppercase">Opobo Marathon</h2>
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" src="img/carousel-1.jpg" alt="Image">
+                    <img class="img-fluid" src="/img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h2 class="text-secondary text-uppercase">Opobo Marathon</h2>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" src="img/carousel-2.jpg" alt="Image">
+                    <img class="img-fluid" src="/img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h2 class="text-secondary text-uppercase">Opobo Marathon</h2>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" src="img/carousel-3.jpg" alt="Image">
+                    <img class="img-fluid" src="/img/carousel-3.jpg" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h2 class="text-secondary text-uppercase">Opobo Marathon</h2>
@@ -214,7 +214,7 @@
                 </div>
                 <div class="col-lg-5 pb-3" style="min-height: 400px;">
                     <div class="position-relative h-100 rounded overflow-hidden">
-                        <img class="position-absolute w-100 h-100" src="img/runners.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="/img/runners.jpg" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -240,7 +240,7 @@
                         <div class="team d-flex flex-column text-center rounded overflow-hidden">
                             <div class="position-relative">
                                 <div class="team-img">
-                                    <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                                    <img class="img-fluid w-100" src="/img/team-1.jpg" alt="">
                                 </div>
                                 <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
                                     <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -256,7 +256,7 @@
                         <div class="team d-flex flex-column text-center rounded overflow-hidden">
                             <div class="position-relative">
                                 <div class="team-img">
-                                    <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                                    <img class="img-fluid w-100" src="/img/team-2.jpg" alt="">
                                 </div>
                                 <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
                                     <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -272,7 +272,7 @@
                         <div class="team d-flex flex-column text-center rounded overflow-hidden">
                             <div class="position-relative">
                                 <div class="team-img">
-                                    <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                                    <img class="img-fluid w-100" src="/img/team-3.jpg" alt="">
                                 </div>
                                 <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
                                     <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -288,7 +288,7 @@
                         <div class="team d-flex flex-column text-center rounded overflow-hidden">
                             <div class="position-relative">
                                 <div class="team-img">
-                                    <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                                    <img class="img-fluid w-100" src="/img/team-4.jpg" alt="">
                                 </div>
                                 <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
                                     <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -328,7 +328,7 @@
                             </div>
 
                             <div class="col-lg-6">
-                                <img class="rounded-lg w-100 h-100" src="img/king.jpg" style="object-fit: cover;">
+                                <img class="rounded-lg w-100 h-100" src="/img/king.jpg" style="object-fit: cover;">
                             </div>
                         </div>
                         <div class="row">
@@ -343,7 +343,7 @@
                             </div>
 
                             <div class="col-lg-6">
-                                <img class="rounded-lg w-100 h-100" src="img/enyiada-cookey-gam.jpg" style="object-fit: cover;">
+                                <img class="rounded-lg w-100 h-100" src="/img/enyiada-cookey-gam.jpg" style="object-fit: cover;">
                             </div>
                         </div>
                         <div class="row">
@@ -357,7 +357,7 @@
                             </div>
 
                             <div class="col-lg-6">
-                                <img class="rounded-lg w-100 h-100" src="img/runner-finisher2.jpg" style="object-fit: cover;">
+                                <img class="rounded-lg w-100 h-100" src="/img/runner-finisher2.jpg" style="object-fit: cover;">
                             </div>
                         </div>
                     </div>
@@ -379,37 +379,37 @@
 
             <div class="sponsor-logo">
                 <a href="https://www.hbng.com/">
-                    <img class="img-fluid" src="img/sponsors/heritage-bank.png" />
+                    <img class="img-fluid" src="/img/sponsors/heritage-bank.png" />
                 </a>
             </div>
             <div class="sponsor-logo">
                 <a href="https://nimasa.gov.ng/">
-                    <img class="img-fluid" src="img/sponsors/nimasa.png" />
+                    <img class="img-fluid" src="/img/sponsors/nimasa.png" />
                 </a>
             </div>
             <div class="sponsor-logo">
                 <a href="https://starzs-group.com/">
-                    <img class="img-fluid" src="img/sponsors/starz-invest.png" />
+                    <img class="img-fluid" src="/img/sponsors/starz-invest.png" />
                 </a>
             </div>
             <div class="sponsor-logo">
                 <a href="https://app.gifthub.ng/">
-                    <img class="img-fluid" src="img/sponsors/gift-hub-logo.png" />
+                    <img class="img-fluid" src="/img/sponsors/gift-hub-logo.png" />
                 </a>
             </div>
             <div class="sponsor-logo">
                 <a href="https://www.osmoserve-global.com/">
-                    <img class="img-fluid" src="img/sponsors/osmoserve.png" />
+                    <img class="img-fluid" src="/img/sponsors/osmoserve.png" />
                 </a>
             </div>
             <div class="sponsor-logo">
                 <a href="">
-                    <img class="img-fluid" src="img/sponsors/Dynasty.jpg" />
+                    <img class="img-fluid" src="/img/sponsors/Dynasty.jpg" />
                 </a>
             </div>
             <div class="sponsor-logo">
                 <a href="">
-                    <img class="img-fluid" src="img/sponsors/vino-imperium.jpeg" />
+                    <img class="img-fluid" src="/img/sponsors/vino-imperium.jpeg" />
                 </a>
             </div>
 
@@ -422,27 +422,27 @@
             <div class="col-lg-8 d-flex flex-wrap justify-content-center offset-lg-2 py-3 py-lg-5" style="gap: 10px">
                 <div class="sponsor-logo">
                     <a href="">
-                        <img class="img-fluid" src="img/sponsors/fiafia-logo.png" />
+                        <img class="img-fluid" src="/img/sponsors/fiafia-logo.png" />
                     </a>
                 </div>
                 <div class="sponsor-logo">
                     <a href="">
-                        <img class="img-fluid" src="img/sponsors/MHOA.png" />
+                        <img class="img-fluid" src="/img/sponsors/MHOA.png" />
                     </a>
                 </div>
                 <div class="sponsor-logo">
                     <a href="">
-                        <img class="img-fluid" src="img/sponsors/give-back.jpeg" />
+                        <img class="img-fluid" src="/img/sponsors/give-back.jpeg" />
                     </a>
                 </div>
                 <div class="sponsor-logo">
                     <a href="">
-                        <img class="img-fluid" src="img/sponsors/budr.png" />
+                        <img class="img-fluid" src="/img/sponsors/budr.png" />
                     </a>
                 </div>
                 <div class="sponsor-logo justify-content-center">
                     <a href="">
-                        <img class="img-fluid" src="img/sponsors/GIBBY-LOGO.png" style="height: 120px;" />
+                        <img class="img-fluid" src="/img/sponsors/GIBBY-LOGO.png" style="height: 120px;" />
                     </a>
                 </div>
             </div>
@@ -530,7 +530,7 @@
 
         // <div class="col-lg-4 col-md-6 mb-5">
         // <div class="position-relative mb-4">
-        //     <img class="img-fluid rounded w-100" src="img/2runners.jpg" alt="">
+        //     <img class="img-fluid rounded w-100" src="/img/2runners.jpg" alt="">
         //     <div class="blog-date">
         //         <h4 class="font-weight-bold mb-n1">01</h4>
         //         <small class="text-white text-uppercase">Jan</small>

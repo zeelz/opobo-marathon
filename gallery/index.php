@@ -43,8 +43,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2022">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2runners.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2runners.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2runners.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2runners.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -56,8 +56,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2022">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/runner-finisher.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/runner-finisher.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/runner-finisher.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/runner-finisher.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -69,8 +69,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2022">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/carousel-2.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/carousel-2.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/carousel-2.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/carousel-2.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -82,8 +82,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2022">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/carousel-3.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/carousel-3.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/carousel-3.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/carousel-3.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -95,8 +95,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2022">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/carousel-222.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/carousel-222.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/carousel-222.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/carousel-222.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -108,8 +108,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2022">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/runners.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/runners.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/runners.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/runners.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -121,8 +121,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2022">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2022/_DSC3710.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2022/_DSC3710.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2022/_DSC3710.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2022/_DSC3710.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -134,8 +134,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2022">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2022/_DSC3720.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2022/_DSC3720.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2022/_DSC3720.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2022/_DSC3720.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -147,8 +147,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2022">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2022/_DSC3723.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2022/_DSC3723.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2022/_DSC3723.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2022/_DSC3723.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -160,8 +160,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2022">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2022/_DSC4248.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2022/_DSC4248.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2022/_DSC4248.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2022/_DSC4248.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -173,8 +173,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2021">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2021/IPP_3255.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2021/IPP_3255.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2021/IPP_3255.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2021/IPP_3255.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -186,8 +186,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2021">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2021/IPP_3267.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2021/IPP_3267.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2021/IPP_3267.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2021/IPP_3267.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -199,8 +199,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2021">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2021/IPP_3281.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2021/IPP_3281.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2021/IPP_3281.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2021/IPP_3281.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -212,8 +212,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2021">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2021/IPP_3295.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2021/IPP_3295.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2021/IPP_3295.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2021/IPP_3295.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -225,8 +225,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2021">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2021/IPP_3298.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2021/IPP_3298.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2021/IPP_3298.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2021/IPP_3298.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -238,8 +238,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2021">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2021/IPP_3513.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2021/IPP_3513.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2021/IPP_3513.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2021/IPP_3513.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -251,8 +251,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2021">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2021/IPP_3759.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2021/IPP_3759.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2021/IPP_3759.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2021/IPP_3759.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -264,8 +264,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2021">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2021/IPP_3802.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2021/IPP_3802.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2021/IPP_3802.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2021/IPP_3802.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -277,8 +277,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2021">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2021/IPP_3818.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2021/IPP_3818.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2021/IPP_3818.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2021/IPP_3818.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -290,8 +290,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2021">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2021/IPP_3830.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2021/IPP_3830.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2021/IPP_3830.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2021/IPP_3830.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -303,8 +303,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2020">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2020/DSC_0156.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2020/DSC_0156.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2020/DSC_0156.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2020/DSC_0156.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -316,8 +316,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2020">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2020/DSC_0173.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2020/DSC_0173.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2020/DSC_0173.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2020/DSC_0173.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -329,8 +329,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2020">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2020/DSC_0175.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2020/DSC_0175.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2020/DSC_0175.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2020/DSC_0175.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -342,8 +342,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2020">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2020/DSC_0189.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2020/DSC_0189.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2020/DSC_0189.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2020/DSC_0189.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -355,8 +355,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2020">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2020/DSC_0204.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2020/DSC_0204.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2020/DSC_0204.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2020/DSC_0204.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -368,8 +368,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2020">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2020/DSC_0395.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2020/DSC_0395.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2020/DSC_0395.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2020/DSC_0395.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -381,8 +381,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2020">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2020/DSC_0409.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2020/DSC_0409.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2020/DSC_0409.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2020/DSC_0409.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -394,8 +394,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2020">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2020/DSC_0412.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2020/DSC_0412.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2020/DSC_0412.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2020/DSC_0412.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -407,8 +407,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2020">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2020/DSC_0100.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2020/DSC_0100.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2020/DSC_0100.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2020/DSC_0100.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -420,8 +420,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2020">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2020/DSC_0198.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2020/DSC_0198.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/2020/DSC_0198.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2020/DSC_0198.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -433,8 +433,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2019">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2019/DSC_0026.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2019/DSC_0026.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2019/DSC_0026.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2019/DSC_0026.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -446,8 +446,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2019">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2019/DSC_0054.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2019/DSC_0054.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2019/DSC_0054.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2019/DSC_0054.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -459,8 +459,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2019">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2019/DSC_0057.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2019/DSC_0057.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2019/DSC_0057.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2019/DSC_0057.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -472,8 +472,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2019">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2019/DSC_0061.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2019/DSC_0061.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2019/DSC_0061.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2019/DSC_0061.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -485,8 +485,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2019">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2019/DSC_0070.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2019/DSC_0070.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2019/DSC_0070.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2019/DSC_0070.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -498,8 +498,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2019">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2019/DSC_0087.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2019/DSC_0087.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2019/DSC_0087.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2019/DSC_0087.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -511,8 +511,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2019">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2019/DSC_0105.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2019/DSC_0105.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2019/DSC_0105.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2019/DSC_0105.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -524,8 +524,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2019">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2019/DSC_0111.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2019/DSC_0111.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2019/DSC_0111.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2019/DSC_0111.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -537,8 +537,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2019">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2019/DSC_0117.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2019/DSC_0117.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2019/DSC_0117.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2019/DSC_0117.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -550,8 +550,8 @@
                 <div class="col-lg-4 col-md-6 col-6 p-1 portfolio-item 2019">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/2019/DSC_0128.JPG" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/2019/DSC_0128.JPG" alt="" />
+                            <a class="position-relative gallery" href="/img/2019/DSC_0128.JPG" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/2019/DSC_0128.JPG" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>

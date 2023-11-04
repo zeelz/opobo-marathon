@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="row">
                     <!-- <div class="col-lg-5">
-                        <img src="img/2runners.jpg" class="img-fluid rounded" alt="">
+                        <img src="/img/2runners.jpg" class="img-fluid rounded" alt="">
                     </div> -->
 
                     <div class="col-lg-10 offset-lg-1">
@@ -60,8 +60,8 @@
                     <div class="col-lg-5 p-4 p-lg-2 portfolio-item festival">
                         <div class="position-relative overflow-hidden shadow">
                             <div class="portfolio-img">
-                                <a class="position-relative gallery" href="img/King_Jaja_of_Opobo_Statue.jpg" data-lightbox="portfolio">
-                                    <img class="img-fluid rounded" src="img/King_Jaja_of_Opobo_Statue.jpg" alt="" />
+                                <a class="position-relative gallery" href="/img/King_Jaja_of_Opobo_Statue.jpg" data-lightbox="portfolio">
+                                    <img class="img-fluid rounded" src="/img/King_Jaja_of_Opobo_Statue.jpg" alt="" />
                                     <div class="gallery-icon">
                                         <i class="fa fa-eye"></i>
                                     </div>
@@ -91,8 +91,8 @@
                     <div class="col-lg-5 p-4 p-lg-2 portfolio-item festival">
                         <div class="position-relative overflow-hidden shadow">
                             <div class="portfolio-img">
-                                <a class="position-relative gallery" href="img/opobo-giant-bell.jpg" data-lightbox="portfolio">
-                                    <img class="img-fluid rounded" src="img/opobo-giant-bell.jpg" alt="" />
+                                <a class="position-relative gallery" href="/img/opobo-giant-bell.jpg" data-lightbox="portfolio">
+                                    <img class="img-fluid rounded" src="/img/opobo-giant-bell.jpg" alt="" />
                                     <div class="gallery-icon">
                                         <i class="fa fa-eye"></i>
                                     </div>
@@ -125,8 +125,8 @@
                     <div class="col-lg-5 p-4 p-lg-2 portfolio-item festival">
                         <div class="position-relative overflow-hidden shadow">
                             <div class="portfolio-img">
-                                <a class="position-relative gallery" href="img/opobo-palace-gate.jpg" data-lightbox="portfolio">
-                                    <img class="img-fluid rounded" src="img/opobo-palace-gate.jpg" alt="" />
+                                <a class="position-relative gallery" href="/img/opobo-palace-gate.jpg" data-lightbox="portfolio">
+                                    <img class="img-fluid rounded" src="/img/opobo-palace-gate.jpg" alt="" />
                                     <div class="gallery-icon">
                                         <i class="fa fa-eye"></i>
                                     </div>
@@ -168,8 +168,8 @@
                 <div class="col-lg-3 col-4 p-1 portfolio-item festival">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/festival/festival_6195.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/festival/festival_6195.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/festival/festival_6195.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/festival/festival_6195.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -181,8 +181,8 @@
                 <div class="col-lg-3 col-4 p-1 portfolio-item festival">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/festival/festival_6298.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/festival/festival_6298.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/festival/festival_6298.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/festival/festival_6298.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -194,8 +194,8 @@
                 <div class="col-lg-3 col-4 p-1 portfolio-item festival">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/festival/festival_6415.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/festival/festival_6415.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/festival/festival_6415.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/festival/festival_6415.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -207,8 +207,8 @@
                 <div class="col-lg-3 col-4 p-1 portfolio-item festival">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/festival/festival_6538.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/festival/festival_6538.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/festival/festival_6538.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/festival/festival_6538.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -220,8 +220,8 @@
                 <div class="col-lg-3 col-4 p-1 portfolio-item festival">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/festival/festival_6486.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/festival/festival_6486.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/festival/festival_6486.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/festival/festival_6486.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>
@@ -233,8 +233,8 @@
                 <div class="col-lg-3 col-4 p-1 portfolio-item festival">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <a class="position-relative gallery" href="img/festival/festival_6516.jpg" data-lightbox="portfolio">
-                                <img class="img-fluid w-100" src="img/festival/festival_6516.jpg" alt="" />
+                            <a class="position-relative gallery" href="/img/festival/festival_6516.jpg" data-lightbox="portfolio">
+                                <img class="img-fluid w-100" src="/img/festival/festival_6516.jpg" alt="" />
                                 <div class="gallery-icon">
                                     <i class="fa fa-eye"></i>
                                 </div>

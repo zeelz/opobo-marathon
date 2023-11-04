@@ -4,14 +4,14 @@
 
             <div class="col-lg-3 d-none d-lg-block p-3">
                 <a href="/" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                    <img src="img/opobomarathon_logo.png" alt="Opobo Marathon Logo" class="w-50 img-fluid">
+                    <img src="/img/opobomarathon_logo.png" alt="Opobo Marathon Logo" class="w-50 img-fluid">
                 </a>
             </div>
 
             <div class="col-lg-9 p-0">
                 <nav class="navbar navbar-expand-lg navbar-light p-0">
                     <a href="/" class="navbar-brand d-block d-lg-none">
-                        <img src="img/opobomarathon_logo.png" alt="Opobo Marathon Logo" class="d-lg-none" style="width:10rem">
+                        <img src="/img/opobomarathon_logo.png" alt="Opobo Marathon Logo" class="d-lg-none" style="width:10rem">
                     </a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
