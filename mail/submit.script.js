@@ -32,8 +32,8 @@ function responseHandler(container, message, status = 'failed'){
 }
 
 const messages = {
-    runner: 'Thank you for registering to run at Opobo marathon 2024',
-    volunteer: 'Thank you for registering to volunteer at Opobo marathon 2024',
+    runner: 'Thank you for registering to run at Opobo marathon 2024. Please expect a confirmation mail in your inbox',
+    volunteer: 'Thank you for registering to volunteer at Opobo marathon 2024. Please expect a confirmation mail in your inbox',
     contact: 'Message sent. Our team would response appropriately'
 }
 
@@ -109,7 +109,7 @@ document
                 data.dateInput = e.target.date.value
                 data.sex = e.target.sex.value
                 data.state = e.target.state.value
-                data.contactPhone = e.target.contactPhone.value
+                data.emergencyContact = e.target.emergencyContact.value
                 data.country = e.target.country.value
                 data.raceChoice = e.target.raceChoice.value
                 data.visitedOpobo =  e.target.visitedOpobo.value

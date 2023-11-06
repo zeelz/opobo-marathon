@@ -3,6 +3,9 @@
 
 <?php $page = 'home'; ?>
 
+<?php // header("Location: /volunteer"); 
+?>
+
 <head>
     <title>Home - Opobo Marathon 2024</title>
     <?php include('./partials/head.php'); ?>
@@ -10,12 +13,14 @@
 
 <body>
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0">
+    <!-- navigation -->
+    <?php include('./partials/nav.php');
+    ?>
 
+    <!-- Carousel Start -->
+    <!-- <div class="container-fluid p-0">
 
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-
 
             <ol class="carousel-indicators d-none d-md-flex">
                 <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
@@ -25,10 +30,6 @@
             </ol>
 
             <div class="carousel-inner">
-
-                <!-- navigation -->
-                <?php include('./partials/nav.php');
-                ?>
 
                 <div class="carousel-item active">
                     <img class="img-fluid" src="/img/runners.jpg" alt="Image">
@@ -72,9 +73,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Carousel End -->
 
+    <div class="d-flex container-fluid p-0 theme-banner">
+        <img src="/img/theme-banner.jpeg" class="mx-auto " alt="">
+    </div>
 
     <!-- Contact Info Start -->
     <div id="regs" class="container-fluid pb-lg-5 contact-info">
@@ -85,7 +89,7 @@
                     <i class="fas fa-2x fa-user-plus text-secondary mr-2"></i>
                     <div class="">
                         <h5 class="mb-2 text-secondary text-uppercase">
-                            <a href="#" class="text-secondary">Register to Run</a>
+                            <a href="/register" class="text-secondary">Register to Run</a>
                         </h5>
                     </div>
                 </div>
@@ -102,7 +106,7 @@
                 </div>
             </div>
             <div class="col-lg-4 p-0">
-                <div class="contact-info-item d-flex align-items-center justify-content-center bg-secondary text-white py-4 py-lg-0">
+                <div class="contact-info-item d-flex align-items-center justify-content-center bg-light text-white py-4 py-lg-0">
                     <!-- <i class="fa fa-3x fa-circle-dollar-to-slot text-white mr-2"></i> -->
                     <!-- <i class="fal fa-donate"></i> -->
                     <i class="fas fa-2x fa-donate text-dark mr-2"></i>

@@ -41,21 +41,20 @@
     <div class="container-fluid">
         <div class="row">
             <!-- bg col -->
-            <div class="col-lg-5 volunteer-bg">
+            <div class="col-lg-5 register-bg">
 
                 <div class="row align-items-end">
                     <div id="form" class="col-12 vertically-center px-md-5 py-4">
                         <h4 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Opobo Marathon 2024!</h4>
 
-                        <h1 class="text-white mb-3">Volunteer Registration</h1>
+                        <h1 class="text-white mb-3">Runner Registration</h1>
+                        <p class="text-white">Register to run here</p>
 
-                        <p class="text-white fs-4">Join us as an Opobo Marathon volunteer. It's going to be amazing having you on board Opobo Marathon. We need your support to make this event a success! Join us in creating History!</p>
+                        <h5 class="text-secondary">Runner's Entitlements</h5>
+                        <p class="text-white">OM2024 Running Singlet, Running Belt, and Finisher Medal, Marathon Finisher T-shirt <strong>(for official finishers only)</strong></p>
 
-                        <!-- <h5 class="text-primary">Runner's Entitlements</h5>
-                        <p>OM2024 Running Singlet, Running Belt, and Finisher Medal, Marathon Finisher T-shirt <strong>(for official finishers only)</strong></p>
-
-                        <h5 class="text-primary">Results</h5>
-                        <p>Crossing the Opobo Marathon finish line is an experience like no other, an experience that no one can ever take away from you. Whatever the outcome, <strong>YOU ARE A FINISHER</strong>.</p> -->
+                        <h5 class="text-secondary">Results</h5>
+                        <p class="text-white">Crossing the Opobo Marathon finish line is an experience like no other, an experience that no one can ever take away from you. Whatever the outcome, <strong>YOU ARE A FINISHER</strong>.</p>
 
 
                     </div>
@@ -67,11 +66,11 @@
 
                 <div class="container p-lg-5">
 
-                    <div class="row mt-lg-3" data-reg="volunteer">
+                    <div class="row mt-lg-3" data-reg="runner">
                         <div class="col-12 mb-5 my-lg-0">
 
                             <div class="contact-form">
-                                <form name="sentMessage" class="runnersRegForm volunteer-form" data-form="volunteer" novalidate="novalidate">
+                                <form name="sentMessage" class="runnersRegForm runner-form" data-form="runner" novalidate="novalidate">
                                     <div class="output d-none text-white rounded p-2 p-lg-3 my-2 my-lg-3"></div>
 
                                     <div class="form-row__">
@@ -79,100 +78,103 @@
                                             <input type="text" class="form-control p-4" id="firstName" placeholder="First Name" autofocus required data-validation-required-message="Please enter your first name" />
                                             <small class="help-block text-danger"></small>
                                         </div>
+
                                         <div class="control-group mt-3 mb-2">
                                             <input type="text" class="form-control p-4" id="lastName" placeholder="Last Name" required data-validation-required-message="Please enter your last name" />
                                             <small class="help-block text-danger"></small>
                                         </div>
+
+                                        <div class="control-group mt-3">
+                                            <label for="date" class="m-0">Date of Birth</label>
+                                            <input type="date" class="form-control p-4" id="date" required data-validation-required-message="Please select your Date of Birth" />
+                                            <small class="help-block text-danger"></small>
+                                        </div>
+
+                                        <div class="control-group mt-4">
+                                            <div class="form-control" style="height: 3rem;">
+                                                <select class="w-100 border-0 p-1 rounded-pill" id="sex" required>
+                                                    <option>Sex</option>
+                                                    <option>Male</option>
+                                                    <option>Female</option>
+                                                </select>
+
+                                            </div>
+                                            <small class="help-block text-danger"></small>
+                                        </div>
+
                                         <div class="control-group mt-3">
                                             <div class="form-control" style="height: 3rem;">
-                                                <select class="w-100 border-0 p-1 rounded-pill" id="ageRange">
-                                                    <option selected disabled>Age</option>
-                                                    <option>18 - 25</option>
-                                                    <option>26 - 30</option>
-                                                    <option>31 - 39</option>
-                                                    <option>40 and above</option>
+                                                <select class="w-100 border-0 p-1 rounded-pill" id="country">
                                                 </select>
                                             </div>
+                                            <small class="help-block text-danger"></small>
+                                        </div>
+
+                                        <div class="control-group mt-3">
+                                            <input type="text" class="form-control p-4" id="state" placeholder="State or Region" required data-validation-required-message="Please enter your state or region" />
+                                            <small class="help-block text-danger"></small>
+                                        </div>
+                                        <div class="control-group mt-3">
+                                            <textarea class="form-control p-4" rows="3" id="address" placeholder="Address" required data-validation-required-message="Please enter your address"></textarea>
                                             <small class="help-block text-danger"></small>
                                         </div>
                                         <div class="control-group mt-3">
                                             <input type="text" class="form-control p-4" id="phone" placeholder="Phone Number" required data-validation-required-message="Please enter your Phone Number" />
                                             <small class="help-block text-danger"></small>
                                         </div>
+
                                         <div class="control-group mt-3">
                                             <input type="email" class="form-control p-4" id="email" placeholder="Email" required data-validation-required-message="Please enter your email" />
                                             <small class="help-block text-danger"></small>
                                         </div>
 
                                         <div class="control-group mt-3">
-                                            <textarea class="form-control p-4" rows="2" id="address" placeholder="Address" required data-validation-required-message="Please enter your address"></textarea>
-                                            <small class="help-block text-danger"></small>
-                                        </div>
-
-                                        <div class="control-group mt-3">
                                             <div class="form-control" style="height: 3rem;">
-                                                <select class="w-100 border-0 p-1 rounded-pill" id="department">
-                                                    <option selected disabled>What team would you like to participate in?</option>
-                                                    <option>Race management</option>
-                                                    <option>Operation</option>
-                                                    <option>Event Experience</option>
-                                                    <option>Technical</option>
-                                                    <option>Media and Communication</option>
-                                                    <option>Medical</option>
+                                                <select class="w-100 border-0 p-1 rounded-pill" id="raceChoice">
+                                                    <option>Race choice?</option>
+                                                    <option>Elite Runner</option>
+                                                    <option>Leisure Runner</option>
                                                 </select>
                                             </div>
                                             <small class="help-block text-danger"></small>
                                         </div>
 
+
                                         <div class="control-group mt-3">
                                             <div class="form-control" style="height: 3rem;">
-                                                <select class="w-100 border-0 p-1 rounded-pill" id="tshirtSize">
-                                                    <option selected disabled>What is your T-shirt size?</option>
-                                                    <option>Small</option>
-                                                    <option>Medium</option>
-                                                    <option>Large</option>
-                                                    <option>XL</option>
-                                                    <option>XXL</option>
+                                                <select class="w-100 border-0 p-1 rounded-pill" id="visitedOpobo">
+                                                    <option>Visited Opobo before?</option>
+                                                    <option>Yes</option>
+                                                    <option>No</option>
                                                 </select>
                                             </div>
+                                        </div>
+                                        <div class="control-group mt-3">
+                                            <label for="emergencyContact" class="m-0">For case of emergency situation?</label>
+                                            <input type="text" class="form-control p-4" id="emergencyContact" placeholder="Contact Person's Phone" required data-validation-required-message="Please enter contact person's phone" />
                                             <small class="help-block text-danger"></small>
                                         </div>
+                                        <div class="mt-4">
+                                            <h6 class="text-dark">Disclaimer</h6>
+                                            <p class="text-muted"><em>By submitting this form, I hereby attest that I am medically and physically fit for this Marathon. Thus, I hereby indemnify the organisers, sponsors or its associates from any form of liability arising from my participation in the Opobo Marthon 2024.</em></p>
 
-                                        <div class="control-group mt-3">
-                                            <p class="font-weight-bold text-dark">Have you visited Opobo Kingdom before?</p>
-                                            <div>
-                                                <input type="radio" value="yes" name="visitedOpobo" id="yes"><label for="yes" class="ml-2">Yes</label>
+                                            <div class="control-group mt-3 d-flex align-items-start">
+                                                <input type="checkbox" id="acceptTerms" value="accepted" class="mt-1 mr-2">
+                                                <label for="">I have read and accept the <a href="terms">Waiver and Release of Liability</a> terms</label>
                                             </div>
-                                            <div>
-                                                <input type="radio" value="no" name="visitedOpobo" id="no"><label for="no" class="ml-2">No</label>
-                                            </div>
-                                        </div>
 
-                                        <div class="control-group mt-3">
-                                            <p class="font-weight-bold text-dark">Do you have a social media account?</p>
-                                            <div>
-                                                <input type="radio" value="yes" name="hasSocial" id="yes"><label for="yes" class="ml-2">Yes</label>
-                                            </div>
-                                            <div>
-                                                <input type="radio" value="no" name="hasSocial" id="no"><label for="no" class="ml-2">No</label>
-                                            </div>
-                                        </div>
-
-                                        <div class="control-group mt-3">
-                                            <textarea class="form-control p-4" rows="3" id="whyVolunteer" placeholder="Why are you interested in volunteering at Opobo Marathon 2024?" required data-validation-required-message="State your reason"></textarea>
-                                            <small class="help-block text-danger"></small>
-                                        </div>
-
-                                        <div class="control-group mt-3 d-flex align-items-start">
-                                            <input type="checkbox" value="yes" name="consent" id="content-input" class="mt-1 mr-2">
-                                            <label class="text-dark m-0" for="content-input"><em>I consent and agree to abide by the rules and regulations of Opobo Marathon during the 2024 edition and will be willing to sign any other documentation, should I be selected as a volunteer for Opobo Marathon 2024</em></label>
                                         </div>
 
                                         <div class="mt-3">
                                             <button class="form-control btn btn-blue btn-block h-auto text-white py-3" type="submit" id="registerButton">Submit</button>
                                         </div>
 
+                                        <!-- <div class="mt-3">
+                                            <button class="btn btn-primary btn-block py-3 px-5" type="submit" id="registerButton">Submit</button>
+                                        </div> -->
+
                                     </div>
+
                                 </form>
                             </div>
 

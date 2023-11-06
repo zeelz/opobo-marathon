@@ -132,6 +132,14 @@ a.text-secondary:hover, a.text-secondary:focus {
   background-size: cover;
   background-position: center;
 }
+
+.volunteer-bg {
+  background-image: linear-gradient(225deg, #100550ac 50%, #dcc811eb), 
+                    url(../img/runners.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .contact-bg {
   background-image: url(../img/conact-bg-2.jpg);
   background-size: cover;
@@ -240,7 +248,8 @@ button.bg-secondary:focus,
   opacity: .8;
 }
 
-.volunteer-form .form-control {
+.volunteer-form .form-control,
+.runner-form .form-control {
   border: solid 1px var(--blue);
   /* padding-top: 1.6rem;
   padding-bottom: 1.6rem; */
@@ -271,10 +280,18 @@ input[type=radio] {
 }
 
 input[type=checkbox] {
-  width: 30px!important;
-  height: 30px!important;
+  /* width: 30px!important;
+  height: 30px!important; */
 }
 
 select {
   background-color: transparent;
+}
+
+.theme-banner {
+    background-color: var(--warning) !important;
+}
+
+.theme-banner img {
+  height: calc(100vh - 300px);
 }
